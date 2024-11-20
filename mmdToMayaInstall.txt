@@ -1,0 +1,5 @@
+https://qiita.com/phyblas/items/e5fe203c955e273b26a4
+
+
+import mmdpaimaya
+mmdpaimaya.yamikuma()
