@@ -18,7 +18,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: __mat_RaiDenShougun
-    second: {fileID: 2100000, guid: 63766e44689d0a64caa2e8908d2e5276, type: 2}
+    second: {fileID: 2100000, guid: c6a4c59f4f40ece46a9b79a80d94b712, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -214,7 +214,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
