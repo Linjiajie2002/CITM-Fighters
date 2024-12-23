@@ -1,0 +1,2593 @@
+fileFormatVersion: 2
+guid: 1c4edfbafe199e84fa786e4d31545c61
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'kahanshin' has translation animation that
+      will be discarded.\n\t'jouhanshin' has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: koshi
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidariashiD
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kun_0_8
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarihizaD
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kun_2_8
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidariashikubiD
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kun_4_8
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jouhanshin
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jouhanshin3
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kubi
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: atama
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidariudemojiri
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migikata
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarihiji
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migiude
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidaritemojiri
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migihiji
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidaritekubi
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migitekubi
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: kisaki__0_1
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarikami_0_1
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migikami1_0_1
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migime
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarininyubi1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarininyubi2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarininyubi3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarioyayubi0
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarioyayubi1
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarioyayubi2
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sachuuyubi1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sachuuyubi2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: sachuuyubi3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarikusuriyubi1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarikusuriyubi2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarikusuriyubi3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarikoyubi1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarikoyubi2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hidarikoyubi3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migioyayubi0
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migioyayubi1
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migioyayubi2
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migininyubi1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migininyubi2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migininyubi3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: uchuuyubi1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: uchuuyubi2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: uchuuyubi3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migikusuriyubi1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migikusuriyubi2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migikusuriyubi3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migikoyubi1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migikoyubi2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: migikoyubi3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jouhanshin2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_Reference
+      parentName: idle(Clone)
+      position: {x: -0, y: 0.7374955, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_ChestEndEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.0043837116, y: 0.65787894, z: 0.08052485}
+      rotation: {x: 0.101411924, y: 0.18673134, z: -0.033867415, w: 0.9765757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_ChestOriginEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.00006208243, y: 0.35407057, z: 0.063261166}
+      rotation: {x: 0.10265954, y: 0.06263166, z: -0.013566043, w: 0.99265015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_HeadEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.012900681, y: 0.6316468, z: 0.10601747}
+      rotation: {x: 0.061832797, y: -0.3608535, z: -0.06601296, w: 0.9282261}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_Hips
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: -0.00000003889604, y: 0.21135421, z: 0.060377568}
+      rotation: {x: 0.000000031292263, y: 1.9160984e-24, z: -1.9160986e-24, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftUpLeg
+      parentName: HIK_RaiDenShougun_Ctrl_Hips
+      position: {x: -0.08524203, y: -0.082011275, z: -0.024124758}
+      rotation: {x: -0.07523881, y: 0.013935692, z: -0.12247531, w: 0.9895174}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftLeg
+      parentName: HIK_RaiDenShougun_Ctrl_LeftUpLeg
+      position: {x: 0.011380402, y: -0.41322714, z: 0.011788349}
+      rotation: {x: 0.15269133, y: -0.18690747, z: -0.055339906, w: 0.9688594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftFoot
+      parentName: HIK_RaiDenShougun_Ctrl_LeftLeg
+      position: {x: 0.013673089, y: -0.43043712, z: -0.057497468}
+      rotation: {x: 0.004713881, y: -0.15195377, z: 0.17038001, w: 0.97358024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightUpLeg
+      parentName: HIK_RaiDenShougun_Ctrl_Hips
+      position: {x: 0.08524202, y: -0.082010895, z: -0.02412472}
+      rotation: {x: -0.19851856, y: -0.015691834, z: 0.081787586, w: 0.9765526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightLeg
+      parentName: HIK_RaiDenShougun_Ctrl_RightUpLeg
+      position: {x: -0.011403935, y: -0.41331223, z: 0.008257727}
+      rotation: {x: 0.3856908, y: -0.019518282, z: -0.0057568545, w: 0.92240363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightFoot
+      parentName: HIK_RaiDenShougun_Ctrl_RightLeg
+      position: {x: -0.013662032, y: -0.4309112, z: -0.053831562}
+      rotation: {x: -0.19521989, y: 0.0031329342, z: -0.0797462, w: 0.977507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_Spine
+      parentName: HIK_RaiDenShougun_Ctrl_Hips
+      position: {x: -0.00000010923136, y: 0.015190127, z: 0.0028823619}
+      rotation: {x: 0.10266266, y: 0.061696324, z: -0.0134128155, w: 0.9927105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_Spine1
+      parentName: HIK_RaiDenShougun_Ctrl_Spine
+      position: {x: -0.0000002460638, y: 0.15857448, z: 0.0022829443}
+      rotation: {x: -0.00000026160401, y: 0.12209328, z: -0.033188384, w: 0.99196357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftShoulder
+      parentName: HIK_RaiDenShougun_Ctrl_Spine1
+      position: {x: -0.02165335, y: 0.1423064, z: -0.047697477}
+      rotation: {x: 0.00000034699147, y: 0.00000039178136, z: -1.3321607e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftArm
+      parentName: HIK_RaiDenShougun_Ctrl_LeftShoulder
+      position: {x: -0.09282107, y: -0.02676377, z: -0.017379511}
+      rotation: {x: 0.08286493, y: 0.5991875, z: 0.26988178, w: 0.7491806}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftArmRoll
+      parentName: HIK_RaiDenShougun_Ctrl_LeftArm
+      position: {x: -0.13378416, y: -0.00078537007, z: -0.010791672}
+      rotation: {x: 0.00000027628906, y: -0.0000001137129, z: -0.00000038339812, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftForeArm
+      parentName: HIK_RaiDenShougun_Ctrl_LeftArmRoll
+      position: {x: -0.08918947, y: -0.00052368175, z: 0.000744272}
+      rotation: {x: 0.21297067, y: 0.45709422, z: 0.34253427, w: 0.7927034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftForeArmRoll
+      parentName: HIK_RaiDenShougun_Ctrl_LeftForeArm
+      position: {x: -0.121963486, y: 0.00078537007, z: 0.0042111543}
+      rotation: {x: -0.12339664, y: 0.00079503993, z: 0.004261076, w: 0.992348}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHand
+      parentName: HIK_RaiDenShougun_Ctrl_LeftForeArmRoll
+      position: {x: -0.08130895, y: 0.00052368175, z: 0.0028074358}
+      rotation: {x: -0.18104494, y: -0.29949602, z: -0.17002411, w: 0.921204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandIndex1
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHand
+      position: {x: -0.085059606, y: -0.002305756, z: 0.02134552}
+      rotation: {x: 2.1684043e-19, y: 3.469447e-18, z: -5.0144346e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandIndex2
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandIndex1
+      position: {x: -0.028841712, y: 0.0020333866, z: 0.0009853961}
+      rotation: {x: 0.008899985, y: -0.00008365178, z: 0.6875413, w: 0.7260907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandIndex3
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandIndex2
+      position: {x: -0.02101563, y: 0.00019409183, z: 0.00027220015}
+      rotation: {x: 0.01847779, y: -0.0016820056, z: 0.45166066, w: 0.89199686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandIndex4
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandIndex3
+      position: {x: -0.021305546, y: 0.0019380192, z: 0.0008789136}
+      rotation: {x: -0.00000012068072, y: -0.00000042457705, z: -0.00000021720975, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandMiddle1
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHand
+      position: {x: -0.08604082, y: 0.0007745363, z: 0.0019794623}
+      rotation: {x: 0.00564915, y: 0.0006103982, z: 0.53497, w: 0.844852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandMiddle2
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandMiddle1
+      position: {x: -0.031011513, y: 0.0032531747, z: 0.0003967731}
+      rotation: {x: 0.003807192, y: -0.000050510727, z: 0.7101826, w: 0.70400727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandMiddle3
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandMiddle2
+      position: {x: -0.023666767, y: 0.0003009034, z: 0.00012694627}
+      rotation: {x: 0.005787017, y: -0.0007850948, z: 0.3858149, w: 0.9225578}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandMiddle4
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandMiddle3
+      position: {x: -0.025451895, y: 0.0034536752, z: 0.0003888143}
+      rotation: {x: -0.00000007402766, y: -0.00000042676118, z: -0.00000033452153, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandPinky1
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHand
+      position: {x: -0.0755274, y: -0.0069816606, z: -0.029789334}
+      rotation: {x: -0.11483017, y: -0.010607872, z: 0.7620697, w: 0.637143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandPinky2
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandPinky1
+      position: {x: -0.023224073, y: -0.00227356, z: -0.003288134}
+      rotation: {x: -0.038697317, y: -0.0038383, z: 0.5895281, w: 0.80681133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandPinky3
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandPinky2
+      position: {x: -0.017431263, y: -0.0017291264, z: -0.0011554292}
+      rotation: {x: 0.000000034053855, y: 0.00000009386435, z: -0.00000002733498, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandPinky4
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandPinky3
+      position: {x: -0.018915333, y: -0.00020538335, z: -0.0022177105}
+      rotation: {x: 0.00000014881782, y: -9.714456e-17, z: -2.825024e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandRing1
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHand
+      position: {x: -0.08274855, y: -0.0029986578, z: -0.014966193}
+      rotation: {x: -0.084295295, y: 0.0118416315, z: 0.7941915, w: 0.601676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandRing2
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandRing1
+      position: {x: -0.030864608, y: 0.0032965096, z: -0.0015638153}
+      rotation: {x: -0.014368169, y: 0.0009933636, z: 0.37047467, w: 0.92873096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandRing3
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandRing2
+      position: {x: -0.026102759, y: 0.00180481, z: -0.0010170939}
+      rotation: {x: -0.030657563, y: 0.00465437, z: 0.4850833, w: 0.873918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandRing4
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandRing3
+      position: {x: -0.022231298, y: 0.003375245, z: -0.001437402}
+      rotation: {x: -0.0000003519396, y: -0.0000002531033, z: -0.000000051215956, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandThumb1
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHand
+      position: {x: -0.03544774, y: -0.00989197, z: 0.02294865}
+      rotation: {x: 8.326673e-17, y: 4.8572257e-17, z: -2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandThumb2
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandThumb1
+      position: {x: -0.018301588, y: -0.012940067, z: 0.015154966}
+      rotation: {x: 7.51088e-14, y: -0.00000066975844, z: 0.00000011411157, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandThumb3
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandThumb2
+      position: {x: -0.020419354, y: -0.0063423174, z: 0.00842101}
+      rotation: {x: 0.2810981, y: 0.0856547, z: -0.12199606, w: 0.9480317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandThumb4
+      parentName: HIK_RaiDenShougun_Ctrl_LeftHandThumb3
+      position: {x: -0.024086727, y: -0.0073397844, z: 0.010453698}
+      rotation: {x: 0.00000018374007, y: -0.00000045079676, z: -0.00000035503658, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_Neck
+      parentName: HIK_RaiDenShougun_Ctrl_Spine1
+      position: {x: -0.00000042700688, y: 0.17485386, z: -0.0475302}
+      rotation: {x: -0.006549634, y: -0.27546462, z: 0.005885608, w: 0.96127087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_Head
+      parentName: HIK_RaiDenShougun_Ctrl_Neck
+      position: {x: -0.00000021779631, y: 0.072005026, z: 0.0069770566}
+      rotation: {x: -0.0024137092, y: -0.27546397, z: 0.008438044, w: 0.96127135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightShoulder
+      parentName: HIK_RaiDenShougun_Ctrl_Spine1
+      position: {x: 0.021652691, y: 0.1423067, z: -0.047697477}
+      rotation: {x: 0.0000007066341, y: 0.00000039397594, z: -0.000000076386314, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightArm
+      parentName: HIK_RaiDenShougun_Ctrl_RightShoulder
+      position: {x: 0.0928212, y: -0.026763465, z: -0.017379533}
+      rotation: {x: -0.5025383, y: 0.20920016, z: -0.58279043, w: 0.6033621}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightArmRoll
+      parentName: HIK_RaiDenShougun_Ctrl_RightArm
+      position: {x: 0.13378425, y: -0.0007849123, z: -0.0057087857}
+      rotation: {x: -0.000000016049821, y: -0.00000055617664, z: 0.00000043350906, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightForeArm
+      parentName: HIK_RaiDenShougun_Ctrl_RightArmRoll
+      position: {x: 0.08918945, y: -0.00052322395, z: -0.0043379054}
+      rotation: {x: -0.0014972121, y: 0.037572473, z: -0.3031778, w: 0.9521918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightForeArmRoll
+      parentName: HIK_RaiDenShougun_Ctrl_RightForeArm
+      position: {x: 0.12196368, y: 0.0007849123, z: 0.004205822}
+      rotation: {x: -0.039371353, y: -0.00025277608, z: -0.0013579767, w: 0.9992237}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHand
+      parentName: HIK_RaiDenShougun_Ctrl_RightForeArmRoll
+      position: {x: 0.08130911, y: 0.00052322395, z: 0.0028038817}
+      rotation: {x: -0.058598004, y: -0.12838945, z: 0.00037288773, w: 0.98999107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandIndex1
+      parentName: HIK_RaiDenShougun_Ctrl_RightHand
+      position: {x: 0.085060365, y: -0.0023060613, z: 0.0213418}
+      rotation: {x: 0.01589096, y: 0.001117722, z: -0.46799707, w: 0.8835864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandIndex2
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandIndex1
+      position: {x: 0.028841864, y: 0.0020333866, z: 0.0009841301}
+      rotation: {x: 0.007740113, y: 0.00007259081, z: -0.59951293, w: 0.80032766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandIndex3
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandIndex2
+      position: {x: 0.02101563, y: 0.00019409183, z: 0.00027127867}
+      rotation: {x: 0.012623513, y: 0.0011474651, z: -0.3088323, w: 0.95103204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandIndex4
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandIndex3
+      position: {x: 0.02130547, y: 0.0019381718, z: 0.00087798137}
+      rotation: {x: -0.00000018265389, y: -0.00000047549653, z: -0.00000010795622, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandMiddle1
+      parentName: HIK_RaiDenShougun_Ctrl_RightHand
+      position: {x: 0.08604078, y: 0.0007742311, z: 0.0019757056}
+      rotation: {x: 0.0086367335, y: 0.000904566, z: -0.6845872, w: 0.7288793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandMiddle2
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandMiddle1
+      position: {x: 0.031011626, y: 0.003253022, z: 0.0003954175}
+      rotation: {x: 0.0013111659, y: 0.000016563741, z: -0.24636202, w: 0.969177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandMiddle3
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandMiddle2
+      position: {x: 0.023666691, y: 0.000301056, z: 0.00012591164}
+      rotation: {x: 0.008418869, y: 0.0011423131, z: -0.5628136, w: 0.82654023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandMiddle4
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandMiddle3
+      position: {x: 0.025451971, y: 0.0034535225, z: 0.00038770138}
+      rotation: {x: 0.000000012471295, y: 0.00000016034791, z: -0.00000017774678, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandPinky1
+      parentName: HIK_RaiDenShougun_Ctrl_RightHand
+      position: {x: 0.07552591, y: -0.0069818133, z: -0.029792625}
+      rotation: {x: -0.111824974, y: 0.010948, z: -0.7971657, w: 0.59321344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandPinky2
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandPinky1
+      position: {x: 0.023223957, y: -0.0022738653, z: -0.0032890995}
+      rotation: {x: -0.0000006742521, y: -0.0000011090717, z: 0.000000030442198, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandPinky3
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandPinky2
+      position: {x: 0.017431034, y: -0.0017295842, z: -0.0011560562}
+      rotation: {x: -0.023984868, y: 0.00026114692, z: -0.20454283, w: 0.9785637}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandPinky4
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandPinky3
+      position: {x: 0.01891541, y: -0.00020599371, z: -0.0022183233}
+      rotation: {x: -0.0000002587025, y: 0.00000043942302, z: 0.00000022445712, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandRing1
+      parentName: HIK_RaiDenShougun_Ctrl_RightHand
+      position: {x: 0.08274778, y: -0.0029988103, z: -0.014969805}
+      rotation: {x: -0.04076145, y: -0.0043547247, z: -0.81303674, w: 0.58076745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandRing2
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandRing1
+      position: {x: 0.030864608, y: 0.0032962044, z: -0.0015651468}
+      rotation: {x: -0.0055180006, y: -0.00038179432, z: -0.142136, w: 0.9898317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandRing3
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandRing2
+      position: {x: 0.026102683, y: 0.0018045048, z: -0.0010181859}
+      rotation: {x: -0.018492104, y: -0.0028066214, z: -0.29241878, w: 0.95610744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandRing4
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandRing3
+      position: {x: 0.022231221, y: 0.0033749398, z: -0.0014383247}
+      rotation: {x: -0.00000056765083, y: 0.0000002432817, z: -0.000000033593995, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandThumb1
+      parentName: HIK_RaiDenShougun_Ctrl_RightHand
+      position: {x: 0.03544843, y: -0.00989197, z: 0.022947103}
+      rotation: {x: -2.7755576e-17, y: -2.0816682e-17, z: -5.7777903e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandThumb2
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandThumb1
+      position: {x: 0.018302465, y: -0.012940067, z: 0.01515406}
+      rotation: {x: -0.00000025093027, y: -0.00000084267595, z: -0.00000025889366, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandThumb3
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandThumb2
+      position: {x: 0.020419812, y: -0.006342012, z: 0.008420185}
+      rotation: {x: -0.00000078575243, y: -0.0000020631499, z: -0.00000035088303, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandThumb4
+      parentName: HIK_RaiDenShougun_Ctrl_RightHandThumb3
+      position: {x: 0.024087148, y: -0.007339174, z: 0.010452888}
+      rotation: {x: -0.00000016160467, y: -0.00000021610555, z: -0.00000024392017, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_HipsEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: -0.000000042915342, y: 0.12934318, z: 0.036252853}
+      rotation: {x: 5.46153e-10, y: 3.344223e-26, z: -3.344223e-26, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftAnkleEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: -0.26359847, y: -0.5882045, z: -0.009534683}
+      rotation: {x: -6.5018685e-11, y: -0.34601995, z: -0.0000000015604461, w: 0.9382272}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftElbowEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: -0.093049474, y: 0.46724945, z: 0.26542297}
+      rotation: {x: 0.42057604, y: 0.8168601, z: 0.39368764, w: 0.02941949}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandIndexEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.08725781, y: 0.122689895, z: 0.19098951}
+      rotation: {x: 0.7575486, y: -0.12956679, z: 0.57293266, w: -0.28474686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandMiddleEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.055967502, y: 0.16038269, z: 0.18885933}
+      rotation: {x: -0.58208376, y: 0.4949359, z: -0.3659599, w: 0.53131}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandPinkyEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.02518919, y: 0.17509246, z: 0.18572946}
+      rotation: {x: 0.6079894, y: -0.38654533, z: 0.5722917, w: -0.39168102}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandRingEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.040617216, y: 0.17443877, z: 0.1750394}
+      rotation: {x: -0.49469733, y: 0.54597306, z: -0.39819732, w: 0.54646766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHandThumbEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.119736545, y: 0.13248733, z: 0.18451111}
+      rotation: {x: 0.3777185, y: 0.8382381, z: 0.22109513, w: 0.325273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftHipEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: -0.08524196, y: 0.21654792, z: 0.03625289}
+      rotation: {x: -0.07523876, y: 0.013935698, z: -0.122475296, w: 0.98951745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftKneeEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: -0.17295143, y: -0.1806704, z: 0.11074693}
+      rotation: {x: 0.054532208, y: -0.19431108, z: -0.16148633, w: 0.9660185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftShoulderEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: -0.11101617, y: 0.6182929, z: 0.10207384}
+      rotation: {x: 0.22727637, y: 0.694298, z: 0.28372508, w: 0.6211246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_LeftWristEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.041489057, y: 0.32765135, z: 0.20392156}
+      rotation: {x: 0.38785473, y: 0.6585859, z: 0.45256123, w: 0.45937094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightAnkleEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.18979499, y: -0.5878026, z: -0.009277191}
+      rotation: {x: 2.1206122e-17, y: -7.2419887e-10, z: 5.2014865e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightElbowEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.1454358, y: 0.39324418, z: 0.028035901}
+      rotation: {x: 0.6504958, y: -0.3903852, z: -0.60592353, w: 0.23939797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandIndexEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.20216686, y: 0.10788574, z: 0.22660105}
+      rotation: {x: 0.32730693, y: 0.69471365, z: 0.43401212, w: 0.4710378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandMiddleEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.17905733, y: 0.11599525, z: 0.2255108}
+      rotation: {x: 0.22107765, y: 0.73365897, z: 0.34962475, w: 0.5391027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandPinkyEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.1512949, y: 0.11905441, z: 0.22909413}
+      rotation: {x: 0.56350386, y: 0.4765262, z: 0.5236216, w: 0.4256838}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandRingEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.16115661, y: 0.13040252, z: 0.2302172}
+      rotation: {x: 0.3918066, y: 0.6376119, z: 0.4375959, w: 0.49844605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHandThumbEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.24524635, y: 0.08823959, z: 0.22840147}
+      rotation: {x: 0.72038513, y: -0.24739087, z: 0.53688926, w: -0.3627576}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightHipEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.08524187, y: 0.16023506, z: 0.03625289}
+      rotation: {x: -0.19851853, y: -0.015691835, z: 0.08178758, w: 0.9765526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightKneeEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.13692181, y: -0.21367587, z: 0.20520452}
+      rotation: {x: 0.19521986, y: -0.003132955, z: 0.07974623, w: 0.977507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightShoulderEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.10160232, y: 0.61184317, z: 0.017403431}
+      rotation: {x: -0.5308942, y: 0.3925043, z: -0.47499084, w: 0.5817864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HIK_RaiDenShougun_Ctrl_RightWristEffector
+      parentName: HIK_RaiDenShougun_Ctrl_Reference
+      position: {x: 0.16258007, y: 0.23166823, z: 0.15038759}
+      rotation: {x: 0.7203831, y: -0.24739164, z: 0.5368911, w: -0.3627582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: katana
+      parentName: idle(Clone)
+      position: {x: 0.2618134, y: 0.8035388, z: 0.20651194}
+      rotation: {x: 0.43702632, y: 0.5545518, z: 0.23633282, w: 0.66755307}
+      scale: {x: 0.8, y: 0.8, z: 0.8}
+    - name: nurbsCircle1
+      parentName: idle(Clone)
+      position: {x: 0.2618134, y: 0.8035388, z: 0.20651194}
+      rotation: {x: 0.43702632, y: 0.5545518, z: 0.23633282, w: 0.66755307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint1
+      parentName: nurbsCircle1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RaiDenShougun
+      parentName: idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RaiDenShougun_sousachuushin
+      parentName: idle(Clone)
+      position: {x: -0, y: 0.028380444, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RaiDenShougun_subetenooya
+      parentName: idle(Clone)
+      position: {x: -0, y: 0.028380444, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariashiIKoya
+      parentName: RaiDenShougun_subetenooya
+      position: {x: -0.060164433, y: -0.09683085, z: -0.009358027}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariashiIK
+      parentName: hidariashiIKoya
+      position: {x: -0.000024104118, y: 0.21915528, z: -0.00009805262}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidaritsumasakiIK
+      parentName: hidariashiIK
+      position: {x: -0.0073297834, y: -0.12534018, z: 0.08652957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiashiIKoya
+      parentName: RaiDenShougun_subetenooya
+      position: {x: 0.060164433, y: -0.09683082, z: -0.009358027}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiashiIK
+      parentName: migiashiIKoya
+      position: {x: 0.000011601448, y: 0.21859646, z: 0.000037267804}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migitsumasakiIK
+      parentName: migiashiIK
+      position: {x: 0.0073457956, y: -0.12478162, z: 0.086416945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sentaa
+      parentName: RaiDenShougun_subetenooya
+      position: {x: -0, y: 0.709115, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sentaa2
+      parentName: sentaa
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: guruubu
+      parentName: sentaa2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: guruubu2
+      parentName: guruubu
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: koshi
+      parentName: guruubu2
+      position: {x: -0, y: 0.26007727, z: -0.02196997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jouhanshin
+      parentName: koshi
+      position: {x: -0.0000001473776, y: -0.03353363, z: 0.08522988}
+      rotation: {x: 0.10266277, y: 0.06169633, z: -0.013412818, w: 0.9927104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jouhanshin3
+      parentName: jouhanshin
+      position: {x: -0.00000007803498, y: 0.058526687, z: 0.0058387993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jouhanshin2
+      parentName: jouhanshin3
+      position: {x: -0.00000016927649, y: 0.10004777, z: -0.0035558664}
+      rotation: {x: -0.00000026863782, y: 0.12209326, z: -0.033188377, w: 0.99196357}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikataP
+      parentName: jouhanshin2
+      position: {x: -0.021653347, y: 0.14230636, z: -0.047697466}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikata
+      parentName: hidarikataP
+      position: {x: 8.671863e-10, y: -0.00000009223829, z: 0.000000022227741}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikataC
+      parentName: hidarikata
+      position: {x: -0.09282104, y: -0.026763763, z: -0.017379506}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariude
+      parentName: hidarikataC
+      position: {x: 0.000000110939354, y: 0.000000015425915, z: 0.00000009325213}
+      rotation: {x: -0.11544668, y: 0.5937961, z: 0.0130033465, w: 0.7961841}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_0_1
+      parentName: hidariude
+      position: {x: -0.09970908, y: -0.113815, z: -0.059598334}
+      rotation: {x: -0.2771745, y: 0, z: -0, w: 0.9608196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_1_1
+      parentName: hidarisode_0_1
+      position: {x: 0.03101015, y: -0.0473024, z: -0.052748464}
+      rotation: {x: 0, y: -0, z: -0.06553059, w: 0.99785054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_2_1
+      parentName: hidarisode_1_1
+      position: {x: 0.031010121, y: -0.047302473, z: -0.05274846}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_3_1
+      parentName: hidarisode_2_1
+      position: {x: 0.031010121, y: -0.0473024, z: -0.052748468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_4_1
+      parentName: hidarisode_3_1
+      position: {x: 0.03101013, y: -0.047302473, z: -0.052748468}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_5_1
+      parentName: hidarisode_4_1
+      position: {x: 0.031010121, y: -0.0473024, z: -0.05274851}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_6_1
+      parentName: hidarisode_5_1
+      position: {x: 0.031010129, y: -0.0473024, z: -0.052748486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_7_1
+      parentName: hidarisode_6_1
+      position: {x: 0.031010134, y: -0.0473024, z: -0.052748527}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarisode_8_1
+      parentName: hidarisode_7_1
+      position: {x: 0.031010134, y: -0.047302473, z: -0.052748565}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariudemojiri
+      parentName: hidariude
+      position: {x: -0.10529915, y: -0.08252816, z: -0.010791723}
+      rotation: {x: 0.67714804, y: 0.20364308, z: 0.25742802, w: 0.65858245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarihiji
+      parentName: hidariudemojiri
+      position: {x: -0.08884292, y: 0.007899365, z: -0.00000048405565}
+      rotation: {x: -0.5533511, y: 0.42308053, z: -0.33418527, w: 0.6349218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidaritemojiri
+      parentName: hidarihiji
+      position: {x: -0.09691453, y: -0.074049175, z: 0.0042111604}
+      rotation: {x: 0.5775334, y: 0.20975761, z: 0.24276939, w: 0.75067973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidaritekubi
+      parentName: hidaritemojiri
+      position: {x: -0.08135907, y: -0.00000088006163, z: 0.0000015635238}
+      rotation: {x: -0.62051165, y: -0.5753958, z: -0.071558625, w: 0.52798134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidaridamii
+      parentName: hidaritekubi
+      position: {x: -0.0212183, y: -0.04318199, z: -1.11022296e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikoyubi1
+      parentName: hidaritekubi
+      position: {x: -0.055443343, y: -0.051760696, z: -0.029789362}
+      rotation: {x: -0.08429901, y: -0.07869038, z: 0.7620697, w: 0.6371431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikoyubi2
+      parentName: hidarikoyubi1
+      position: {x: -0.016970765, y: -0.016016236, z: -0.0032881056}
+      rotation: {x: -0.028247215, y: -0.026726527, z: 0.589528, w: 0.80681133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikoyubi3
+      parentName: hidarikoyubi2
+      position: {x: -0.012723859, y: -0.012039189, z: -0.0011554336}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikoyubisaki
+      parentName: hidarikoyubi3
+      position: {x: -0.014830172, y: -0.011743024, z: -0.0022177058}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikusuriyubi1
+      parentName: hidaritekubi
+      position: {x: -0.06359142, y: -0.053032443, z: -0.014966215}
+      rotation: {x: -0.07390024, y: -0.042245578, z: 0.7941915, w: 0.6016759}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikusuriyubi2
+      parentName: hidarikusuriyubi1
+      position: {x: -0.026422163, y: -0.016289856, z: -0.0015638096}
+      rotation: {x: -0.011968789, y: -0.008011369, z: 0.37047458, w: 0.92873096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikusuriyubi3
+      parentName: hidarikusuriyubi2
+      position: {x: -0.021743795, y: -0.014553999, z: -0.0010170947}
+      rotation: {x: -0.027089838, y: -0.015089487, z: 0.48508328, w: 0.873918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikusuriyubisaki
+      parentName: hidarikusuriyubi3
+      position: {x: -0.019644158, y: -0.010941997, z: -0.0014374153}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarininyubi1
+      parentName: hidaritekubi
+      position: {x: -0.06584297, y: -0.053899486, z: 0.02134549}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarininyubi2
+      parentName: hidarininyubi1
+      position: {x: -0.02404938, y: -0.016050162, z: 0.0009853863}
+      rotation: {x: 0.0070881345, y: 0.00538273, z: 0.68754137, w: 0.72609067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarininyubi3
+      parentName: hidarininyubi2
+      position: {x: -0.01673533, y: -0.012713042, z: 0.00027221342}
+      rotation: {x: 0.01563959, y: 0.009982842, z: 0.4516607, w: 0.89199686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarininyubisaki
+      parentName: hidarininyubi3
+      position: {x: -0.01803232, y: -0.011511595, z: 0.0008788991}
+      rotation: {x: 0, y: -0.0000005423569, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarioyayubi0
+      parentName: hidaritekubi
+      position: {x: -0.021971509, y: -0.029523648, z: 0.022948647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarioyayubi1
+      parentName: hidarioyayubi0
+      position: {x: -0.006548293, y: -0.021436267, z: 0.015154963}
+      rotation: {x: 0, y: -0.0000005130805, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarioyayubi2
+      parentName: hidarioyayubi1
+      position: {x: -0.012262127, y: -0.017516157, z: 0.008420986}
+      rotation: {x: 0.16981737, y: 0.23982298, z: -0.12199574, w: 0.9480317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarioyayubisaki
+      parentName: hidarioyayubi2
+      position: {x: -0.0145511385, y: -0.020550057, z: 0.01045371}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sachuuyubi1
+      parentName: hidaritekubi
+      position: {x: -0.068504654, y: -0.052064713, z: 0.001979444}
+      rotation: {x: 0.004092821, y: 0.0039412333, z: 0.53497, w: 0.844852}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sachuuyubi2
+      parentName: sachuuyubi1
+      position: {x: -0.026511772, y: -0.0164141, z: 0.00039677302}
+      rotation: {x: 0.0030409337, y: 0.002290901, z: 0.7101826, w: 0.7040072}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sachuuyubi3
+      parentName: sachuuyubi2
+      position: {x: -0.018896988, y: -0.0142516885, z: 0.00012694336}
+      rotation: {x: 0.005056195, y: 0.0029222483, z: 0.38581493, w: 0.9225577}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sachuuyubisaki
+      parentName: sachuuyubi3
+      position: {x: -0.022238676, y: -0.012851788, z: 0.00038880887}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidaritemojiri1
+      parentName: hidarihiji
+      position: {x: -0.051687717, y: -0.03949287, z: 0.0022459489}
+      rotation: {x: 0.64464134, y: 0.2313613, z: 0.22227724, w: 0.6939037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidaritemojiri2
+      parentName: hidarihiji
+      position: {x: -0.083992556, y: -0.06417595, z: 0.0036496662}
+      rotation: {x: 0.6228614, y: 0.22437266, z: 0.22932978, w: 0.71351844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidaritemojiri3
+      parentName: hidarihiji
+      position: {x: -0.11629743, y: -0.08885902, z: 0.005053384}
+      rotation: {x: 0.6004849, y: 0.2171691, z: 0.23616266, w: 0.73244977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariudemojiri1
+      parentName: hidariude
+      position: {x: -0.05615954, y: -0.044015042, z: -0.0057555586}
+      rotation: {x: 0.67714804, y: 0.20364308, z: 0.25742802, w: 0.65858245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariudemojiri2
+      parentName: hidariude
+      position: {x: -0.09125924, y: -0.0715245, z: -0.009352782}
+      rotation: {x: 0.67714804, y: 0.20364308, z: 0.25742802, w: 0.65858245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariudemojiri3
+      parentName: hidariude
+      position: {x: -0.12635896, y: -0.099033885, z: -0.012950004}
+      rotation: {x: 0.67714804, y: 0.20364308, z: 0.25742802, w: 0.65858245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hikabuto
+      parentName: hidariude
+      position: {x: -0.019378385, y: 0.05326599, z: -0.0060434267}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarimuneue2
+      parentName: jouhanshin2
+      position: {x: -0.05512562, y: 0.08801864, z: 0.082136035}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarimunesaki
+      parentName: hidarimuneue2
+      position: {x: 0.0010441828, y: -0.070198745, z: 0.011394978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kubi
+      parentName: jouhanshin2
+      position: {x: -0.0000004246462, y: 0.17485362, z: -0.047530014}
+      rotation: {x: -0.0065494343, y: -0.27546465, z: 0.005885743, w: 0.96127087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: atama
+      parentName: kubi
+      position: {x: -0.00000030129195, y: 0.072004944, z: 0.006976835}
+      rotation: {x: -0.0024136908, y: -0.27546406, z: 0.008438044, w: 0.96127135}
+      scale: {x: 1, y: 1, z: 0.99999946}
+    - name: __0_1
+      parentName: atama
+      position: {x: 0.00000062609706, y: 0.07091156, z: -0.046855573}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __1_1
+      parentName: __0_1
+      position: {x: 8.2261975e-10, y: -0.050598603, z: -0.01778503}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __2_1
+      parentName: __1_1
+      position: {x: 6.2853356e-10, y: -0.04903915, z: -0.02032957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __3_1
+      parentName: __2_1
+      position: {x: 4.6460627e-10, y: -0.047722626, z: -0.022477688}
+      rotation: {x: 0.05353854, y: -0.015429439, z: -0.0047395816, w: 0.9984353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __4_1
+      parentName: __3_1
+      position: {x: 3.28655e-10, y: -0.046630554, z: -0.024260167}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __5_1
+      parentName: __4_1
+      position: {x: 2.1820597e-10, y: -0.045743253, z: -0.025707807}
+      rotation: {x: -0.00019153534, y: 0.0010757222, z: -0.0036085693, w: 0.9999929}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __6_1
+      parentName: __5_1
+      position: {x: 1.3096724e-10, y: -0.04504257, z: -0.026851386}
+      rotation: {x: -0.17301388, y: 0, z: -0, w: 0.98491937}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __7_1
+      parentName: __6_1
+      position: {x: 6.453774e-11, y: -0.044509124, z: -0.0277217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __8_1
+      parentName: __7_1
+      position: {x: 1.6625562e-11, y: -0.04412445, z: -0.028349552}
+      rotation: {x: -0.048623305, y: 0, z: -0, w: 0.9988172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __9_1
+      parentName: __8_1
+      position: {x: -1.5061232e-11, y: -0.0438694, z: -0.028765697}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __10_1
+      parentName: __9_1
+      position: {x: -3.3032847e-11, y: -0.043725204, z: -0.029000968}
+      rotation: {x: -0.06986671, y: 0, z: -0, w: 0.9975563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __11_1
+      parentName: __10_1
+      position: {x: -3.954483e-11, y: -0.04367302, z: -0.029086132}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __12_1
+      parentName: __11_1
+      position: {x: -3.6961864e-11, y: -0.043694, z: -0.029051952}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __13_1
+      parentName: __12_1
+      position: {x: -2.7575879e-11, y: -0.043769147, z: -0.02892929}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __14_1
+      parentName: __13_1
+      position: {x: -1.37879395e-11, y: -0.04387962, z: -0.028748892}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __15_1
+      parentName: __14_1
+      position: {x: 2.0008884e-12, y: -0.04400688, z: -0.028541526}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __16_1
+      parentName: __15_1
+      position: {x: 1.7535057e-11, y: -0.04413147, z: -0.02833805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __17_1
+      parentName: __16_1
+      position: {x: 3.04135e-11, y: -0.044235, z: -0.028169135}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __18_1
+      parentName: __17_1
+      position: {x: 3.8307916e-11, y: -0.0442984, z: -0.028065719}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __19_1
+      parentName: __18_1
+      position: {x: 3.8889992e-11, y: -0.044302825, z: -0.028058471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __20_1
+      parentName: __19_1
+      position: {x: 2.9685907e-11, y: -0.044229355, z: -0.028178329}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __21_1
+      parentName: __20_1
+      position: {x: 8.54925e-12, y: -0.044059332, z: -0.028455924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __22_1
+      parentName: __21_1
+      position: {x: -2.6993801e-11, y: -0.04377365, z: -0.028922005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: __23_1
+      parentName: __22_1
+      position: {x: -7.9344316e-11, y: -0.04335346, z: -0.02960762}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _shita
+      parentName: atama
+      position: {x: -0.000000096421786, y: 0.0014212036, z: 0.08638685}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: _ue
+      parentName: atama
+      position: {x: -0.000000115171204, y: 0.0073260497, z: 0.086416855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_0_1
+      parentName: atama
+      position: {x: -0.065010205, y: 0.07235504, z: 0.065776564}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_1_1
+      parentName: hidarikami_0_1
+      position: {x: 0.0015559196, y: -0.04134506, z: -0.0028807449}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_2_1
+      parentName: hidarikami_1_1
+      position: {x: 0.005309615, y: -0.041710205, z: 0.000044851302}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_3_1
+      parentName: hidarikami_2_1
+      position: {x: 0.010230861, y: -0.038124543, z: 0.0052613257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_4_1
+      parentName: hidarikami_3_1
+      position: {x: 0.0015100002, y: -0.032757264, z: 0.01157917}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_5_1
+      parentName: hidarikami_4_1
+      position: {x: 0.00038410185, y: -0.027779387, z: 0.017917575}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_6_1
+      parentName: hidarikami_5_1
+      position: {x: -0.00038424015, y: -0.025360564, z: 0.023174018}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_7_1
+      parentName: hidarikami_6_1
+      position: {x: -0.0004663658, y: -0.02767227, z: 0.026245937}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarikami_8_1
+      parentName: hidarikami_7_1
+      position: {x: 0.0004663658, y: -0.036884155, z: 0.026030788}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarime
+      parentName: atama
+      position: {x: -0.037973147, y: 0.059467316, z: 0.060417373}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_0_1
+      parentName: atama
+      position: {x: 0.10232827, y: 0.083492585, z: 0.051662195}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_1_1
+      parentName: migikami1_0_1
+      position: {x: 0.0032261275, y: -0.016809693, z: -0.0038056087}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_2_1
+      parentName: migikami1_1_1
+      position: {x: 0.0032261752, y: -0.016810149, z: -0.0038056278}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_3_1
+      parentName: migikami1_2_1
+      position: {x: 0.0032261848, y: -0.016810454, z: -0.0038056325}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_4_1
+      parentName: migikami1_3_1
+      position: {x: 0.0032261848, y: -0.016809998, z: -0.0038056374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_5_1
+      parentName: migikami1_4_1
+      position: {x: 0.0032261752, y: -0.016810302, z: -0.0038056325}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_6_1
+      parentName: migikami1_5_1
+      position: {x: 0.0032261466, y: -0.016809998, z: -0.0038056278}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_7_1
+      parentName: migikami1_6_1
+      position: {x: 0.0032261466, y: -0.016809998, z: -0.0038056278}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikami1_8_1
+      parentName: migikami1_7_1
+      position: {x: 0.0032261848, y: -0.016810149, z: -0.003805642}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migime
+      parentName: atama
+      position: {x: 0.03805837, y: 0.059278563, z: 0.060390778}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ryoume
+      parentName: atama
+      position: {x: 0.0000010112723, y: 0.30498442, z: -0.024989946}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikataP
+      parentName: jouhanshin2
+      position: {x: 0.021652685, y: 0.14230667, z: -0.047697466}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikata
+      parentName: migikataP
+      position: {x: -0.000000005987624, y: -0.00000008031048, z: 0.000000020193214}
+      rotation: {x: 0.00000074217917, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikataC
+      parentName: migikata
+      position: {x: 0.09282119, y: -0.026763458, z: -0.01737953}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiude
+      parentName: migikataC
+      position: {x: -0.00000009344884, y: -0.000000047793534, z: -0.00000003751922}
+      rotation: {x: -0.4078154, y: 0.36053777, z: -0.3562614, w: 0.7594583}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiudemojiri
+      parentName: migiude
+      position: {x: 0.105299555, y: -0.082527645, z: -0.00570879}
+      rotation: {x: 0.21641748, y: 0.6731742, z: -0.66333616, w: -0.24491869}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migihiji
+      parentName: migiudemojiri
+      position: {x: -0.089295015, y: 0.00052191433, z: 0.0000024392155}
+      rotation: {x: -0.027622156, y: -0.6996327, z: 0.71393645, w: -0.0067794896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_0_0
+      parentName: migihiji
+      position: {x: 0.11577511, y: -0.16502747, z: -0.057349324}
+      rotation: {x: -0.35104212, y: 0.8985335, z: 0.15861352, w: -0.21035375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_1_0
+      parentName: migisode_0_0
+      position: {x: -0.041096345, y: -0.050930936, z: -0.06211594}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_2_0
+      parentName: migisode_1_0
+      position: {x: -0.04109623, y: -0.050930936, z: -0.062115896}
+      rotation: {x: 0, y: 0.2139572, z: -0, w: 0.97684306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_3_0
+      parentName: migisode_2_0
+      position: {x: -0.041096173, y: -0.050931014, z: -0.062115952}
+      rotation: {x: 0, y: 0.01280272, z: -0, w: 0.99991804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_4_0
+      parentName: migisode_3_0
+      position: {x: -0.04109621, y: -0.050931014, z: -0.062115952}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_5_0
+      parentName: migisode_4_0
+      position: {x: -0.04109623, y: -0.05093086, z: -0.062115934}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_6_0
+      parentName: migisode_5_0
+      position: {x: -0.041096266, y: -0.05093109, z: -0.062115975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_0_1
+      parentName: migihiji
+      position: {x: 0.0389809, y: -0.09775909, z: -0.06169755}
+      rotation: {x: -0.35104212, y: 0.8985335, z: 0.15861352, w: -0.21035375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_1_1
+      parentName: migisode_0_1
+      position: {x: -0.04109623, y: -0.05093086, z: -0.062115945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_2_1
+      parentName: migisode_1_1
+      position: {x: -0.04109623, y: -0.050930936, z: -0.062115908}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_3_1
+      parentName: migisode_2_1
+      position: {x: -0.04109621, y: -0.05093109, z: -0.062115952}
+      rotation: {x: 0, y: 0.2139572, z: -0, w: 0.97684306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_4_1
+      parentName: migisode_3_1
+      position: {x: -0.04109623, y: -0.050930936, z: -0.062115896}
+      rotation: {x: 0, y: 0.01280272, z: -0, w: 0.99991804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_5_1
+      parentName: migisode_4_1
+      position: {x: -0.04109621, y: -0.050930936, z: -0.062115896}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_6_1
+      parentName: migisode_5_1
+      position: {x: -0.041096248, y: -0.05093086, z: -0.06211605}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_0_2
+      parentName: migihiji
+      position: {x: -0.037813224, y: -0.030490646, z: -0.06604576}
+      rotation: {x: -0.35104212, y: 0.8985335, z: 0.15861352, w: -0.21035375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_1_2
+      parentName: migisode_0_2
+      position: {x: -0.041096248, y: -0.050931014, z: -0.06211591}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_2_2
+      parentName: migisode_1_2
+      position: {x: -0.04109623, y: -0.050930936, z: -0.062115945}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_3_2
+      parentName: migisode_2_2
+      position: {x: -0.04109621, y: -0.050930936, z: -0.062115952}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_4_2
+      parentName: migisode_3_2
+      position: {x: -0.04109621, y: -0.050930936, z: -0.062115934}
+      rotation: {x: 0, y: 0.2139572, z: -0, w: 0.97684306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_5_2
+      parentName: migisode_4_2
+      position: {x: -0.04109621, y: -0.050930936, z: -0.062115934}
+      rotation: {x: 0, y: 0.01280272, z: -0, w: 0.99991804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migisode_6_2
+      parentName: migisode_5_2
+      position: {x: -0.041096248, y: -0.050930936, z: -0.062115975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migitemojiri
+      parentName: migihiji
+      position: {x: 0.09691443, y: -0.07404947, z: 0.0042057657}
+      rotation: {x: -0.22945848, y: -0.63875455, z: 0.6993263, w: 0.22424164}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migitekubi
+      parentName: migitemojiri
+      position: {x: -0.08135916, y: 0.0000004002855, z: 0.000002377407}
+      rotation: {x: 0.16489647, y: 0.7291032, z: -0.5992439, w: 0.2865737}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migidamii
+      parentName: migitekubi
+      position: {x: -0.021445353, y: -0.0057703224, z: -0.02371805}
+      rotation: {x: 0.03333512, y: 0.203145, z: -0.1655707, w: 0.96447253}
+      scale: {x: 0.8, y: 0.8, z: 0.8}
+    - name: migikoyubi1
+      parentName: migitekubi
+      position: {x: 0.0554421, y: -0.051759813, z: -0.02979261}
+      rotation: {x: -0.08171468, y: 0.07711925, z: -0.7971657, w: 0.59321344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikoyubi2
+      parentName: migikoyubi1
+      position: {x: 0.01697051, y: -0.016016332, z: -0.0032891019}
+      rotation: {x: -0.0000011547411, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikoyubi3
+      parentName: migikoyubi2
+      position: {x: 0.012723413, y: -0.012039364, z: -0.0011560549}
+      rotation: {x: -0.018804273, y: 0.014890349, z: -0.20454283, w: 0.9785637}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikoyubisaki
+      parentName: migikoyubi3
+      position: {x: 0.014829887, y: -0.011743522, z: -0.0022183144}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikusuriyubi1
+      parentName: migitekubi
+      position: {x: 0.06359082, y: -0.05303201, z: -0.014969786}
+      rotation: {x: -0.034895148, y: 0.021512358, z: -0.81303674, w: 0.58076745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikusuriyubi2
+      parentName: migikusuriyubi1
+      position: {x: 0.026422009, y: -0.016290115, z: -0.0015651297}
+      rotation: {x: -0.004596706, y: 0.003076308, z: -0.1421359, w: 0.98983175}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikusuriyubi3
+      parentName: migikusuriyubi2
+      position: {x: 0.021743536, y: -0.014554114, z: -0.0010181734}
+      rotation: {x: -0.016339548, y: 0.0091023045, z: -0.29241875, w: 0.9561075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migikusuriyubisaki
+      parentName: migikusuriyubi3
+      position: {x: 0.019644005, y: -0.010942209, z: -0.0014383141}
+      rotation: {x: 0, y: 0.00000055025856, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migininyubi1
+      parentName: migitekubi
+      position: {x: 0.065843426, y: -0.053900123, z: 0.021341803}
+      rotation: {x: 0.013248978, y: -0.0088451905, z: -0.4679971, w: 0.8835864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migininyubi2
+      parentName: migininyubi1
+      position: {x: 0.024049511, y: -0.016050175, z: 0.0009841238}
+      rotation: {x: 0.006164538, y: -0.0046812627, z: -0.59951276, w: 0.8003278}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migininyubi3
+      parentName: migininyubi2
+      position: {x: 0.016735448, y: -0.01271302, z: 0.0002712894}
+      rotation: {x: 0.010683732, y: -0.0068212124, z: -0.30883235, w: 0.95103204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migininyubisaki
+      parentName: migininyubi3
+      position: {x: 0.01803231, y: -0.011511435, z: 0.0008779612}
+      rotation: {x: -0.0000005300067, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migioyayubi0
+      parentName: migitekubi
+      position: {x: 0.021972064, y: -0.029524056, z: 0.0229471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migioyayubi1
+      parentName: migioyayubi0
+      position: {x: 0.006549001, y: -0.021436771, z: 0.0151540395}
+      rotation: {x: -0.000000673406, y: -0.0000005553975, z: -3.74008e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migioyayubi2
+      parentName: migioyayubi1
+      position: {x: 0.012262622, y: -0.017516172, z: 0.008420199}
+      rotation: {x: -0.0000019240717, y: -0.0000011377527, z: -0.00000062187036, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migioyayubisaki
+      parentName: migioyayubi2
+      position: {x: 0.014551934, y: -0.020549862, z: 0.01045288}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: uchuuyubi1
+      parentName: migitekubi
+      position: {x: 0.0685045, y: -0.052064847, z: 0.00197573}
+      rotation: {x: 0.007382725, y: -0.0045724646, z: -0.6845872, w: 0.7288793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: uchuuyubi2
+      parentName: uchuuyubi1
+      position: {x: 0.026511783, y: -0.01641427, z: 0.00039541285}
+      rotation: {x: 0.001046907, y: -0.0007896508, z: -0.24636215, w: 0.969177}
+      scale: {x: 1, y: 1, z: 1}
+    - name: uchuuyubi3
+      parentName: uchuuyubi2
+      position: {x: 0.018897006, y: -0.014251471, z: 0.00012588924}
+      rotation: {x: 0.0073560406, y: -0.0042511714, z: -0.5628135, w: 0.8265403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: uchuuyubisaki
+      parentName: uchuuyubi3
+      position: {x: 0.022238692, y: -0.012851902, z: 0.0003877188}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migitemojiri1
+      parentName: migihiji
+      position: {x: 0.007618656, y: -0.005821228, z: 0.00033062874}
+      rotation: {x: -0.23598486, y: -0.6591405, z: 0.6801458, w: 0.21736296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migitemojiri2
+      parentName: migihiji
+      position: {x: 0.058469236, y: -0.044674758, z: 0.002537405}
+      rotation: {x: -0.233832, y: -0.6524083, z: 0.6866061, w: 0.21967727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migitemojiri3
+      parentName: migihiji
+      position: {x: 0.10931976, y: -0.08352814, z: 0.0047441795}
+      rotation: {x: -0.2316565, y: -0.6456128, z: 0.69299984, w: 0.22197022}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiudemojiri1
+      parentName: migiude
+      position: {x: 0.05615979, y: -0.04401474, z: -0.003044685}
+      rotation: {x: 0.21641716, y: 0.67317426, z: -0.66333604, w: -0.244919}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiudemojiri2
+      parentName: migiude
+      position: {x: 0.09125966, y: -0.07152405, z: -0.0049476135}
+      rotation: {x: 0.21641728, y: 0.67317426, z: -0.6633361, w: -0.2449189}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiudemojiri3
+      parentName: migiude
+      position: {x: 0.12635952, y: -0.099033274, z: -0.0068505416}
+      rotation: {x: 0.21641737, y: 0.6731742, z: -0.6633361, w: -0.2449188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migimuneue2
+      parentName: jouhanshin2
+      position: {x: 0.055461008, y: 0.088030696, z: 0.08231535}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migimunesaki
+      parentName: migimuneue2
+      position: {x: -0.0013788127, y: -0.0702108, z: 0.011215667}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oppaichousei
+      parentName: jouhanshin2
+      position: {x: 0.0000003664692, y: 0.05191345, z: 0.030810531}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarimuneshita
+      parentName: oppaichousei
+      position: {x: -0.047607973, y: -0.043218076, z: -0.024877705}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarimuneshitasaki
+      parentName: hidarimuneshita
+      position: {x: -0.0066711614, y: 0.008845444, z: 0.08712137}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarimuneue
+      parentName: oppaichousei
+      position: {x: -0.053773608, y: 0.03415207, z: -0.017836204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migimuneshita
+      parentName: oppaichousei
+      position: {x: 0.047607973, y: -0.043218076, z: -0.024877705}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migimuneshitasaki
+      parentName: migimuneshita
+      position: {x: 0.006671176, y: 0.008845444, z: 0.08712137}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migimuneue
+      parentName: oppaichousei
+      position: {x: 0.053715084, y: 0.03415207, z: -0.017836204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kaminari_1
+      parentName: jouhanshin3
+      position: {x: 0.044878148, y: 0.05400833, z: 0.096596286}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kaminari_1_
+      parentName: kaminari_1
+      position: {x: -0.00080483913, y: 0.022504654, z: -0.00010349273}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kochou_
+      parentName: jouhanshin3
+      position: {x: -0.00000034793104, y: 0.06608223, z: -0.124214895}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kochou_hidari1
+      parentName: kochou_
+      position: {x: -0.02171243, y: 0.023893585, z: 0.005851269}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kochou_hidari2
+      parentName: kochou_
+      position: {x: -0.049137525, y: 0.009803543, z: 0.028997527}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kochou_migi1
+      parentName: kochou_
+      position: {x: 0.006894178, y: 0.0024383545, z: 0.022476843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ryuu_1_0_1
+      parentName: jouhanshin3
+      position: {x: 0.046092413, y: 0.01781784, z: 0.0936571}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ryuu_1_1_1
+      parentName: ryuu_1_0_1
+      position: {x: -0, y: -0.027993163, z: 0.0029421805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ryuu_1_2_1
+      parentName: ryuu_1_1_1
+      position: {x: -0, y: -0.027992934, z: 0.0029421805}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ryuu_1_3_1
+      parentName: ryuu_1_2_1
+      position: {x: -0, y: -0.027993163, z: 0.0029422187}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ryuu_1_4_1
+      parentName: ryuu_1_3_1
+      position: {x: -0, y: -0.027993087, z: 0.0029421996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kahanshin
+      parentName: koshi
+      position: {x: -0.00000003814695, y: -0.048723754, z: 0.08234753}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariashi
+      parentName: kahanshin
+      position: {x: -0.085241914, y: -0.08201126, z: -0.024124736}
+      rotation: {x: -0.21219118, y: 0.030246176, z: -0.13208596, w: 0.9677879}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarihiza
+      parentName: hidariashi
+      position: {x: 0.011384017, y: -0.41322634, z: 0.011808129}
+      rotation: {x: 0.41283298, y: -0.14558993, z: -0.09689453, w: 0.893859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariashikubi
+      parentName: hidarihiza
+      position: {x: 0.013673712, y: -0.4304365, z: -0.057497453}
+      rotation: {x: -0.10917781, y: -0.14945486, z: 0.24643384, w: 0.95132214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidaritsumasaki
+      parentName: hidariashikubi
+      position: {x: -0.007294087, y: -0.12472954, z: 0.08610794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariashiD
+      parentName: kahanshin
+      position: {x: -0.08524201, y: -0.08201126, z: -0.024124753}
+      rotation: {x: -0.21219118, y: 0.030246176, z: -0.13208596, w: 0.9677879}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidarihizaD
+      parentName: hidariashiD
+      position: {x: 0.0113804005, y: -0.41322702, z: 0.011788347}
+      rotation: {x: 0.41283298, y: -0.14558993, z: -0.09689453, w: 0.893859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hidariashikubiD
+      parentName: hidarihizaD
+      position: {x: 0.013673086, y: -0.430437, z: -0.057497453}
+      rotation: {x: -0.10917781, y: -0.14945486, z: 0.24643384, w: 0.95132214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_0
+      parentName: kahanshin
+      position: {x: 0.00000007382795, y: 0.03260292, z: 0.091064624}
+      rotation: {x: 0.038277615, y: -0.041236937, z: 0.030162483, w: 0.9979602}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_0
+      parentName: kun_0_0
+      position: {x: -0, y: -0.055140074, z: 0.0038557814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_0
+      parentName: kun_1_0
+      position: {x: -0, y: -0.055140074, z: 0.0038557719}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_0
+      parentName: kun_2_0
+      position: {x: -0, y: -0.055140074, z: 0.0038557623}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_0
+      parentName: kun_3_0
+      position: {x: -0, y: -0.055140153, z: 0.0038557623}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_0
+      parentName: kun_4_0
+      position: {x: -0, y: -0.055140153, z: 0.0038557814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_1
+      parentName: kahanshin
+      position: {x: -0.050058823, y: 0.03186783, z: 0.0830924}
+      rotation: {x: -0.03890713, y: 0, z: -0, w: 0.99924284}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_1
+      parentName: kun_0_1
+      position: {x: -0.0072546434, y: -0.054834746, z: 0.0032821177}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_1
+      parentName: kun_1_1
+      position: {x: -0.0042788554, y: -0.055074614, z: 0.0032727623}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_1
+      parentName: kun_2_1
+      position: {x: -0.0037021637, y: -0.055118024, z: 0.0032711695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_1
+      parentName: kun_3_1
+      position: {x: -0.0040481947, y: -0.055086136, z: 0.0032725525}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_1
+      parentName: kun_4_1
+      position: {x: -0.0038405608, y: -0.055100553, z: 0.0032721518}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_2
+      parentName: kahanshin
+      position: {x: -0.09146208, y: 0.030242004, z: 0.060565002}
+      rotation: {x: -0.546492, y: 0, z: -0, w: 0.83746433}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_2
+      parentName: kun_0_2
+      position: {x: -0.01325489, y: -0.05406677, z: 0.0016619491}
+      rotation: {x: 0.7239028, y: 0, z: 0, w: 0.68990195}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_2
+      parentName: kun_1_2
+      position: {x: -0.00781786, y: -0.054871216, z: 0.0016288471}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_2
+      parentName: kun_2_2
+      position: {x: -0.0067641926, y: -0.05501793, z: 0.0016230582}
+      rotation: {x: -0.48266298, y: 0, z: -0, w: 0.87580615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_2
+      parentName: kun_3_2
+      position: {x: -0.0073964116, y: -0.054913253, z: 0.0016277599}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_2
+      parentName: kun_4_2
+      position: {x: -0.0070170495, y: -0.05496315, z: 0.0016261577}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_3
+      parentName: kahanshin
+      position: {x: -0.117050715, y: 0.029065246, z: 0.027403}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_3
+      parentName: kun_0_3
+      position: {x: -0.016963243, y: -0.05319267, z: -0.00072073936}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_3
+      parentName: kun_1_3
+      position: {x: -0.010005102, y: -0.054521177, z: -0.00078165054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_3
+      parentName: kun_2_3
+      position: {x: -0.008656626, y: -0.05476982, z: -0.0007928371}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_3
+      parentName: kun_3_3
+      position: {x: -0.009465722, y: -0.05460449, z: -0.00078492163}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_3
+      parentName: kun_4_3
+      position: {x: -0.008980216, y: -0.05469139, z: -0.000788517}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_4
+      parentName: kahanshin
+      position: {x: -0.122400224, y: 0.029510422, z: -0.010886688}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_4
+      parentName: kun_0_4
+      position: {x: -0.017738514, y: -0.052531812, z: -0.0043555163}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_4
+      parentName: kun_1_4
+      position: {x: -0.010462322, y: -0.053995207, z: -0.0044283676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_4
+      parentName: kun_2_4
+      position: {x: -0.009052257, y: -0.05427475, z: -0.0044422294}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_4
+      parentName: kun_3_4
+      position: {x: -0.009898328, y: -0.05409996, z: -0.0044334005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_4
+      parentName: kun_4_4
+      position: {x: -0.00939064, y: -0.054199524, z: -0.0044381977}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_5
+      parentName: kahanshin
+      position: {x: -0.10658559, y: 0.031743925, z: -0.04816742}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_5
+      parentName: kun_0_5
+      position: {x: -0.015446634, y: -0.052179642, z: -0.010383478}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_5
+      parentName: kun_1_5
+      position: {x: -0.009110546, y: -0.05327591, z: -0.010430714}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_5
+      parentName: kun_2_5
+      position: {x: -0.007882661, y: -0.05347801, z: -0.010439167}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_5
+      parentName: kun_3_5
+      position: {x: -0.008619432, y: -0.053337783, z: -0.010432704}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_5
+      parentName: kun_4_5
+      position: {x: -0.008177319, y: -0.053407438, z: -0.0104352115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_6
+      parentName: kahanshin
+      position: {x: -0.07234137, y: 0.034707487, z: -0.077268936}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_6
+      parentName: kun_0_6
+      position: {x: -0.010483866, y: -0.05216156, z: -0.015089283}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_6
+      parentName: kun_1_6
+      position: {x: -0.0061834715, y: -0.052663572, z: -0.01510925}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_6
+      parentName: kun_2_6
+      position: {x: -0.005350094, y: -0.052754667, z: -0.015112724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_6
+      parentName: kun_3_6
+      position: {x: -0.005850153, y: -0.052688446, z: -0.01510981}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__0_2
+      parentName: kun_4_6
+      position: {x: 0.009814157, y: -0.030685043, z: -0.012099056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__1_2
+      parentName: kisaki__0_2
+      position: {x: -0.0069789314, y: -0.092641525, z: -0.019691495}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__2_2
+      parentName: kisaki__1_2
+      position: {x: -0.012032136, y: -0.09264099, z: -0.019691449}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__3_2
+      parentName: kisaki__2_2
+      position: {x: -0.012601804, y: -0.092640914, z: -0.019691428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__4_2
+      parentName: kisaki__3_2
+      position: {x: -0.010753889, y: -0.09264095, z: -0.019691458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__5_2
+      parentName: kisaki__4_2
+      position: {x: -0.008554191, y: -0.092641026, z: -0.019691449}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__6_2
+      parentName: kisaki__5_2
+      position: {x: -0.008068533, y: -0.09264105, z: -0.019691467}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__7_2
+      parentName: kisaki__6_2
+      position: {x: -0.011362857, y: -0.09264097, z: -0.019691428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_6
+      parentName: kun_4_6
+      position: {x: -0.0055500697, y: -0.05271919, z: -0.015110693}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_7
+      parentName: kahanshin
+      position: {x: -0.025588643, y: 0.036782227, z: -0.09318588}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_7
+      parentName: kun_0_7
+      position: {x: -0.0037083554, y: -0.052247237, z: -0.017663209}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_7
+      parentName: kun_1_7
+      position: {x: -0.0021872257, y: -0.05230995, z: -0.01766561}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_7
+      parentName: kun_2_7
+      position: {x: -0.0018924379, y: -0.05232124, z: -0.017666034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_7
+      parentName: kun_3_7
+      position: {x: -0.0020693135, y: -0.052312925, z: -0.017665682}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_7
+      parentName: kun_4_7
+      position: {x: -0.0019631814, y: -0.05231674, z: -0.017665796}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_8
+      parentName: kahanshin
+      position: {x: 0.025588576, y: 0.036782227, z: -0.0931859}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_8
+      parentName: kun_0_8
+      position: {x: 0.003708365, y: -0.052247237, z: -0.017663209}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_8
+      parentName: kun_1_8
+      position: {x: 0.0021872234, y: -0.05230995, z: -0.0176656}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_8
+      parentName: kun_2_8
+      position: {x: 0.0018924332, y: -0.05232124, z: -0.017666034}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_8
+      parentName: kun_3_8
+      position: {x: 0.002069311, y: -0.052312925, z: -0.017665701}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__0_1
+      parentName: kun_4_8
+      position: {x: 0.054948814, y: -0.03383667, z: 0.014057388}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__1_1
+      parentName: kisaki__0_1
+      position: {x: 0.0069789886, y: -0.092641525, z: -0.019691495}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__2_1
+      parentName: kisaki__1_1
+      position: {x: 0.012032147, y: -0.09264099, z: -0.019691449}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__3_1
+      parentName: kisaki__2_1
+      position: {x: 0.012601785, y: -0.092640914, z: -0.019691428}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__4_1
+      parentName: kisaki__3_1
+      position: {x: 0.010753889, y: -0.09264095, z: -0.019691458}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__5_1
+      parentName: kisaki__4_1
+      position: {x: 0.008554162, y: -0.092641026, z: -0.019691449}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__6_1
+      parentName: kisaki__5_1
+      position: {x: 0.008068571, y: -0.09264105, z: -0.019691467}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kisaki__7_1
+      parentName: kisaki__6_1
+      position: {x: 0.011362848, y: -0.09264097, z: -0.019691449}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_8
+      parentName: kun_4_8
+      position: {x: 0.0019631886, y: -0.05231674, z: -0.017665777}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_9
+      parentName: kahanshin
+      position: {x: 0.07234124, y: 0.034707487, z: -0.07726897}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_9
+      parentName: kun_0_9
+      position: {x: 0.010483875, y: -0.05216156, z: -0.01508928}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_9
+      parentName: kun_1_9
+      position: {x: 0.0061834813, y: -0.052663572, z: -0.01510926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_9
+      parentName: kun_2_9
+      position: {x: 0.005350065, y: -0.052754667, z: -0.015112705}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_9
+      parentName: kun_3_9
+      position: {x: 0.005850134, y: -0.052688446, z: -0.015109801}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_9
+      parentName: kun_4_9
+      position: {x: 0.005550108, y: -0.05271919, z: -0.015110693}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_10
+      parentName: kahanshin
+      position: {x: 0.10658545, y: 0.03174385, z: -0.048167437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_10
+      parentName: kun_0_10
+      position: {x: 0.015446634, y: -0.052179564, z: -0.010383475}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_10
+      parentName: kun_1_10
+      position: {x: 0.009110555, y: -0.05327583, z: -0.010430708}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_10
+      parentName: kun_2_10
+      position: {x: 0.007882643, y: -0.05347809, z: -0.010439159}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_10
+      parentName: kun_3_10
+      position: {x: 0.008619394, y: -0.053337935, z: -0.010432696}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_10
+      parentName: kun_4_10
+      position: {x: 0.008177375, y: -0.053407364, z: -0.010435204}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_11
+      parentName: kahanshin
+      position: {x: 0.12240008, y: 0.029510422, z: -0.010886654}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_11
+      parentName: kun_0_11
+      position: {x: 0.017738532, y: -0.052531812, z: -0.0043555116}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_11
+      parentName: kun_1_11
+      position: {x: 0.010462341, y: -0.053995207, z: -0.004428377}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_11
+      parentName: kun_2_11
+      position: {x: 0.009052219, y: -0.05427475, z: -0.0044422243}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_11
+      parentName: kun_3_11
+      position: {x: 0.0098983, y: -0.05409996, z: -0.0044333814}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_11
+      parentName: kun_4_11
+      position: {x: 0.009390697, y: -0.054199524, z: -0.0044381926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_12
+      parentName: kahanshin
+      position: {x: 0.117050625, y: 0.029065246, z: 0.027403}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_12
+      parentName: kun_0_12
+      position: {x: 0.016963262, y: -0.05319267, z: -0.0007207298}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_12
+      parentName: kun_1_12
+      position: {x: 0.010005083, y: -0.054521177, z: -0.00078165054}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_12
+      parentName: kun_2_12
+      position: {x: 0.008656597, y: -0.05476982, z: -0.0007928371}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_12
+      parentName: kun_3_12
+      position: {x: 0.009465722, y: -0.05460449, z: -0.0007849121}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_12
+      parentName: kun_4_12
+      position: {x: 0.008980255, y: -0.05469139, z: -0.0007885265}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_13
+      parentName: kahanshin
+      position: {x: 0.09146205, y: 0.030242004, z: 0.060564954}
+      rotation: {x: -0.11443786, y: 0, z: -0, w: 0.99343044}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_13
+      parentName: kun_0_13
+      position: {x: 0.0132548995, y: -0.05406677, z: 0.0016619777}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_13
+      parentName: kun_1_13
+      position: {x: 0.007817869, y: -0.054871216, z: 0.001628828}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_13
+      parentName: kun_2_13
+      position: {x: 0.0067641735, y: -0.05501793, z: 0.0016230582}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_13
+      parentName: kun_3_13
+      position: {x: 0.0073963925, y: -0.054913253, z: 0.0016277885}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_13
+      parentName: kun_4_13
+      position: {x: 0.0070170783, y: -0.05496315, z: 0.0016261387}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_0_14
+      parentName: kahanshin
+      position: {x: 0.050058883, y: 0.03186783, z: 0.08309236}
+      rotation: {x: -0.08204098, y: 0, z: -0, w: 0.99662894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_1_14
+      parentName: kun_0_14
+      position: {x: 0.007254648, y: -0.054834746, z: 0.0032821177}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_2_14
+      parentName: kun_1_14
+      position: {x: 0.0042788554, y: -0.055074614, z: 0.0032727527}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_3_14
+      parentName: kun_2_14
+      position: {x: 0.0037021493, y: -0.055118024, z: 0.0032711695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_4_14
+      parentName: kun_3_14
+      position: {x: 0.0040481803, y: -0.055086136, z: 0.0032725716}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kun_5_14
+      parentName: kun_4_14
+      position: {x: 0.00384058, y: -0.055100553, z: 0.0032721614}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiashi
+      parentName: kahanshin
+      position: {x: 0.08524191, y: -0.0820108, z: -0.024124699}
+      rotation: {x: -0.23463199, y: -0.018493805, z: 0.08385036, w: 0.96828455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migihiza
+      parentName: migiashi
+      position: {x: -0.011402344, y: -0.41331133, z: 0.0082722}
+      rotation: {x: 0.45307174, y: -0.022776226, z: -0.0076919384, w: 0.8911499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiashikubi
+      parentName: migihiza
+      position: {x: -0.013662732, y: -0.4309112, z: -0.053831168}
+      rotation: {x: -0.2316621, y: 0.0023491208, z: -0.080998294, w: 0.96941555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migitsumasaki
+      parentName: migiashikubi
+      position: {x: 0.007335162, y: -0.12460041, z: 0.08629139}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiashiD
+      parentName: kahanshin
+      position: {x: 0.085242, y: -0.08201088, z: -0.024124715}
+      rotation: {x: -0.23463199, y: -0.018493805, z: 0.08385036, w: 0.96828455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migihizaD
+      parentName: migiashiD
+      position: {x: -0.011403932, y: -0.4133121, z: 0.008257725}
+      rotation: {x: 0.45307174, y: -0.022776226, z: -0.0076919384, w: 0.8911499}
+      scale: {x: 1, y: 1, z: 1}
+    - name: migiashikubiD
+      parentName: migihizaD
+      position: {x: -0.013662028, y: -0.43091112, z: -0.053831547}
+      rotation: {x: -0.2316621, y: 0.0023491208, z: -0.080998294, w: 0.96941555}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: HIK_RaiDenShougun_Ctrl_HipsEffector
+    hasTranslationDoF: 1
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
