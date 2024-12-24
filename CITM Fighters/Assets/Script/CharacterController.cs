@@ -32,7 +32,12 @@ public class CharacterController : MonoBehaviour
         {
             speed = 1;
         }
-        if (Input.GetKeyUp(KeyCode.D))
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            speed = -1;
+        }
+        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
         {
             speed = 0;
         }
@@ -46,6 +51,11 @@ public class CharacterController : MonoBehaviour
         {
             ChangeAnimation("walkfront");
         }
+
+        if (speed < 0)
+        {
+            ChangeAnimation("walkback");
+        }
     }
 
     private void HandleAnimationCompletion()
@@ -54,7 +64,7 @@ public class CharacterController : MonoBehaviour
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 
         // 如果动画播放完毕并且不是 Idle 状态，切换回 Idle
-        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed ==0)
+        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed == 0)
         {
             ChangeAnimation("idle");
         }

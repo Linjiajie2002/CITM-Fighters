@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b6366283adcf22c4e9f70a30f8418789
+guid: 682ef73d6ca6ed84e81e28096775771d
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -561,18 +561,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: walkfront2(Clone)
+    - name: walkback(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Hutao
-      parentName: walkfront2(Clone)
+      parentName: walkback(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: HIK_Hutao_Ctrl_Reference
-      parentName: walkfront2(Clone)
+      parentName: walkback(Clone)
       position: {x: -0, y: 0.65839994, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -1022,17 +1022,17 @@ ModelImporter:
       rotation: {x: 0.000005226298, y: -0.11211604, z: 0.0000022360916, w: 0.99369514}
       scale: {x: 1, y: 1, z: 1}
     - name: nurbsCircle1
-      parentName: walkfront2(Clone)
+      parentName: walkback(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 60, y: 60, z: 60}
     - name: Hutao_sousachuushin
-      parentName: walkfront2(Clone)
+      parentName: walkback(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Hutao_subetenooya
-      parentName: walkfront2(Clone)
+      parentName: walkback(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
