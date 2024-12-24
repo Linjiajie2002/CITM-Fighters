@@ -5,6 +5,7 @@ public class CharacterController : MonoBehaviour
 {
     private Animator animator;
     private string currentAnimation = "";
+    private int speed = 0;
 
     void Start()
     {
@@ -27,13 +28,23 @@ public class CharacterController : MonoBehaviour
         }
 
         // 示例：按下 J 键触发 QuickAttack 动画
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.D))
         {
-            ChangeAnimation("walkfront");
+            speed = 1;
         }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            speed = 0;
+        }
+
         if (Input.GetKeyDown(KeyCode.M))
         {
             ChangeAnimation("idle");
+        }
+
+        if (speed > 0)
+        {
+            ChangeAnimation("walkfront");
         }
     }
 
@@ -43,7 +54,7 @@ public class CharacterController : MonoBehaviour
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 
         // 如果动画播放完毕并且不是 Idle 状态，切换回 Idle
-        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle"))
+        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed ==0)
         {
             ChangeAnimation("idle");
         }
