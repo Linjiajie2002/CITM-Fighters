@@ -6,7 +6,7 @@ public class CharacterController : MonoBehaviour
     private Animator animator;
     private string currentAnimation = "";
     private int speed = 0;
-
+    private int dodge = 0;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -26,6 +26,18 @@ public class CharacterController : MonoBehaviour
         {
             ChangeAnimation("atak");
         }
+        // 示例：按下 J 键触发 QuickAttack 动画
+        if (Input.GetKeyDown(KeyCode.S) && speed == 0)
+        {
+            dodge = 1;
+        }
+
+        // 示例：按下 J 键触发 QuickAttack 动画
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            dodge = 0;
+        }
+
 
         // 示例：按下 J 键触发 QuickAttack 动画
         if (Input.GetKeyDown(KeyCode.D))
@@ -33,7 +45,7 @@ public class CharacterController : MonoBehaviour
             speed = 1;
         }
 
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A) && dodge == 0)
         {
             speed = -1;
         }
@@ -47,7 +59,12 @@ public class CharacterController : MonoBehaviour
             ChangeAnimation("idle");
         }
 
-        if (speed > 0)
+        if (dodge != 0 )
+        {
+            ChangeAnimation("dodge_high");
+        }
+
+        if (speed > 0 && dodge == 0 )
         {
             ChangeAnimation("walkfront");
         }
@@ -64,7 +81,7 @@ public class CharacterController : MonoBehaviour
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 
         // 如果动画播放完毕并且不是 Idle 状态，切换回 Idle
-        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed == 0)
+        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed == 0 && dodge == 0)
         {
             ChangeAnimation("idle");
         }
