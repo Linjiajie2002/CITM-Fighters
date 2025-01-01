@@ -38,6 +38,12 @@ public class CharacterController : MonoBehaviour
             dodge = 0;
         }
 
+        // 示例：按下 J 键触发 QuickAttack 动画
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            ChangeAnimation("dodge_low");
+        }
+
 
         // 示例：按下 J 键触发 QuickAttack 动画
         if (Input.GetKeyDown(KeyCode.D))
