@@ -22,10 +22,15 @@ public class CharacterController : MonoBehaviour
     private void HandleActions()
     {
         // 示例：按下 N 键触发 WalkFront 动画
-        if (Input.GetKeyDown(KeyCode.N))
+        if (Input.GetKeyDown(KeyCode.J))
         {
-            ChangeAnimation("atak");
+            ChangeAnimation("quick_atk");
         }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            ChangeAnimation("slow_atk");
+        }
+        
         // 示例：按下 J 键触发 QuickAttack 动画
         if (Input.GetKeyDown(KeyCode.S) && speed == 0)
         {
