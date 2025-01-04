@@ -34,8 +34,12 @@ public class CharacterController : MonoBehaviour
         {
             ChangeAnimation("low_quick_atk");
         }
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            ChangeAnimation("low_slow_atk");
+        }
 
-        
+
 
         // 示例：按下 J 键触发 QuickAttack 动画
         if (Input.GetKeyDown(KeyCode.S) && speed == 0)
