@@ -7,6 +7,7 @@ public class CharacterController : MonoBehaviour
     private string currentAnimation = "";
     private int speed = 0;
     private int dodge = 0;
+    private bool die = false;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -37,6 +38,12 @@ public class CharacterController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.I))
         {
             ChangeAnimation("low_slow_atk");
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            ChangeAnimation("die");
+            die = true;
         }
 
 
@@ -102,7 +109,7 @@ public class CharacterController : MonoBehaviour
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
 
         // 如果动画播放完毕并且不是 Idle 状态，切换回 Idle
-        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed == 0 && dodge == 0)
+        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed == 0 && dodge == 0 && !die)
         {
             ChangeAnimation("idle");
         }
