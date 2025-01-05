@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: slow_atk2
+  m_Name: slow_atk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -124,37 +124,34 @@ AnimatorStateMachine:
     m_Position: {x: 940, y: 140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3413961550575351112}
-    m_Position: {x: 560, y: 150, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 3472607749347622068}
-    m_Position: {x: 560, y: 210, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5394709828267682115}
-    m_Position: {x: 560, y: 270, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -8695003677586033872}
-    m_Position: {x: 560, y: 330, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -8010509065558186467}
     m_Position: {x: 560, y: 90, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 6107741671462646621}
-    m_Position: {x: 560, y: 400, z: 0}
+    m_State: {fileID: 3472607749347622068}
+    m_Position: {x: 560, y: 150, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5394709828267682115}
+    m_Position: {x: 560, y: 210, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -8695003677586033872}
+    m_Position: {x: 560, y: 270, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -8010509065558186467}
+    m_Position: {x: 560, y: 330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8816145971745483592}
-    m_Position: {x: 560, y: 460, z: 0}
+    m_Position: {x: 560, y: 390, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5257257298661532683}
-    m_Position: {x: 560, y: 530, z: 0}
+    m_Position: {x: 560, y: 450, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1072603961925973709}
-    m_Position: {x: 560, y: 610, z: 0}
+    m_Position: {x: 560, y: 510, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 294476647235725678}
-    m_Position: {x: 560, y: 690, z: 0}
+    m_Position: {x: 560, y: 570, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 122731418820449245}
-    m_Position: {x: 560, y: 750, z: 0}
+    m_Position: {x: 560, y: 630, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
@@ -405,32 +402,6 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 1827226128182048838, guid: 681a4c9795642b9448e991adc73278ad, type: 3}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &6107741671462646621
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: slow_atk
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: b7dc6ade7a91c6d4181c01e37a11ca18, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

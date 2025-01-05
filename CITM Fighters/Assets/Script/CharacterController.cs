@@ -30,7 +30,7 @@ public class CharacterController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.K))
         {
-            ChangeAnimation("slow_atk2");
+            ChangeAnimation("slow_atk");
         }
         if (Input.GetKeyDown(KeyCode.U))
         {

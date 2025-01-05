@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b7dc6ade7a91c6d4181c01e37a11ca18
+guid: 19b4fa17105a8144e99f56987611b953
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -50,7 +50,7 @@ ModelImporter:
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 1
-      lastFrame: 30
+      lastFrame: 50
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -565,18 +565,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Slow_attack(Clone)
+    - name: slow_attack(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Hutao
-      parentName: Slow_attack(Clone)
+      parentName: slow_attack(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: HIK_Hutao_Ctrl_Reference
-      parentName: Slow_attack(Clone)
+      parentName: slow_attack(Clone)
       position: {x: -0, y: 0.65839994, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -593,7 +593,7 @@ ModelImporter:
     - name: HIK_Hutao_Ctrl_RightAnkleEffector
       parentName: HIK_Hutao_Ctrl_Reference
       position: {x: 0.2867342, y: -0.5912684, z: -0.010797024}
-      rotation: {x: 0.0000007840261, y: -0.2608091, z: -0.00000021851928, w: 0.96539044}
+      rotation: {x: 0.00000078402616, y: -0.2608091, z: -0.00000021851929, w: 0.96539044}
       scale: {x: 1, y: 1, z: 1}
     - name: HIK_Hutao_Ctrl_LeftWristEffector
       parentName: HIK_Hutao_Ctrl_Reference
@@ -618,7 +618,7 @@ ModelImporter:
     - name: HIK_Hutao_Ctrl_LeftElbowEffector
       parentName: HIK_Hutao_Ctrl_Reference
       position: {x: -0.3235765, y: 0.3969335, z: -0.037953228}
-      rotation: {x: -0.4890718, y: 0.46189758, z: -0.09643222, w: 0.7335941}
+      rotation: {x: -0.48907182, y: 0.46189755, z: -0.09643218, w: 0.73359406}
       scale: {x: 1, y: 1, z: 1}
     - name: HIK_Hutao_Ctrl_RightElbowEffector
       parentName: HIK_Hutao_Ctrl_Reference
@@ -1026,17 +1026,17 @@ ModelImporter:
       rotation: {x: 0.000005226298, y: -0.11211604, z: 0.0000022360916, w: 0.99369514}
       scale: {x: 1, y: 1, z: 1}
     - name: nurbsCircle1
-      parentName: Slow_attack(Clone)
+      parentName: slow_attack(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 60, y: 60, z: 60}
     - name: Hutao_sousachuushin
-      parentName: Slow_attack(Clone)
+      parentName: slow_attack(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Hutao_subetenooya
-      parentName: Slow_attack(Clone)
+      parentName: slow_attack(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: -0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
