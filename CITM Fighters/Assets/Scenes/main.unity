@@ -301,13 +301,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.99992347, z: -0, w: 0.012371618}
-  m_LocalPosition: {x: -0.21, y: 1, z: 8.99}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 178.582, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1001 &991743761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -682,6 +682,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[6]
       value: 
       objectReference: {fileID: 2100000, guid: fc122b7a3861fea41a1c8bda9cb44566, type: 2}
+    - target: {fileID: -7511558181221131132, guid: b86e168aae3fc884daff7d90e244859d, type: 3}
+      propertyPath: m_Materials.Array.data[13]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b00dd2f612cfcd46b5af37c90baad9a, type: 2}
     - target: {fileID: 919132149155446097, guid: b86e168aae3fc884daff7d90e244859d, type: 3}
       propertyPath: m_Name
       value: tenkyuushi
