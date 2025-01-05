@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1122321320342136487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7545154917842188159}
+  - component: {fileID: 7533009855116165413}
+  - component: {fileID: 8176108268536734712}
+  m_Layer: 0
+  m_Name: InputAction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7545154917842188159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122321320342136487}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0669017, y: -0.6211518, z: 5.069434}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7533009855116165413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122321320342136487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02d600e61f0dfa45a8d0fc063412c1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8176108268536734712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122321320342136487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: b9ace9c6f17b75a4c86f9dcdb95fa446, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7533009855116165413}
+        m_TargetAssemblyTypeName: InputAndRumbleManager, Assembly-CSharp
+        m_MethodName: walkfront
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7f2c22aa-3f56-4a9f-b0fd-263958a31049
+    m_ActionName: Player1/walkFront[/Keyboard/d,/Nintendo Wireless Gamepad/hat/right,/Nintendo
+      Wireless Gamepad1/hat/right]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7533009855116165413}
+        m_TargetAssemblyTypeName: InputAndRumbleManager, Assembly-CSharp
+        m_MethodName: walkBack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: dbfa22c3-ff74-4056-9c3d-4f9b7228fe5c
+    m_ActionName: Player1/walkBack[/Keyboard/a,/Nintendo Wireless Gamepad/hat/left,/Nintendo
+      Wireless Gamepad1/hat/left]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7533009855116165413}
+        m_TargetAssemblyTypeName: InputAndRumbleManager, Assembly-CSharp
+        m_MethodName: dodgeHigh
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 22e36514-b89f-4e69-9d48-b53478099ee9
+    m_ActionName: Player1/DodgeHigh[/Keyboard/s,/Nintendo Wireless Gamepad/hat/down,/Nintendo
+      Wireless Gamepad1/hat/down,/Nintendo Wireless Gamepad/button4,/Nintendo Wireless
+      Gamepad1/button4]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7533009855116165413}
+        m_TargetAssemblyTypeName: InputAndRumbleManager, Assembly-CSharp
+        m_MethodName: dodgeLow
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: db777140-5d93-4772-8890-1501be23065e
+    m_ActionName: Player1/DodgeLow[/Keyboard/w,/Nintendo Wireless Gamepad/hat/up,/Nintendo
+      Wireless Gamepad1/hat/up,/Nintendo Wireless Gamepad/button4,/Nintendo Wireless
+      Gamepad1/button4]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7533009855116165413}
+        m_TargetAssemblyTypeName: InputAndRumbleManager, Assembly-CSharp
+        m_MethodName: quick_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 81f30535-13c1-45ec-a89b-6353bc75b152
+    m_ActionName: Player1/QuickAtk[/Keyboard/j,/Nintendo Wireless Gamepad/button3,/Nintendo
+      Wireless Gamepad1/button3]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7533009855116165413}
+        m_TargetAssemblyTypeName: InputAndRumbleManager, Assembly-CSharp
+        m_MethodName: slow_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 9e54f500-dae3-46a4-ac1d-d27d05628826
+    m_ActionName: Player1/SlowAtk[/Keyboard/k,/Nintendo Wireless Gamepad/trigger,/Nintendo
+      Wireless Gamepad1/trigger]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7533009855116165413}
+        m_TargetAssemblyTypeName: InputAndRumbleManager, Assembly-CSharp
+        m_MethodName: low_quick_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: aa68faf1-8337-460c-bcb6-9f04cde2fb27
+    m_ActionName: Player1/Low_quick_atk[/Keyboard/u,/Nintendo Wireless Gamepad/hat/down,/Nintendo
+      Wireless Gamepad1/hat/down,/Nintendo Wireless Gamepad/button3,/Nintendo Wireless
+      Gamepad1/button3]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7533009855116165413}
+        m_TargetAssemblyTypeName: InputAndRumbleManager, Assembly-CSharp
+        m_MethodName: low_slow_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 46c17cae-9d3c-4141-abba-c7801e7c7000
+    m_ActionName: Player1/Low_Slow_atk[/Keyboard/i,/Nintendo Wireless Gamepad/hat/down,/Nintendo
+      Wireless Gamepad1/hat/down,/Nintendo Wireless Gamepad/trigger,/Nintendo Wireless
+      Gamepad1/trigger]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player1
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

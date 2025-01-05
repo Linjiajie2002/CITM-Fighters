@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Animator))]
 public class CharacterController : MonoBehaviour
 {
+    public int PlayerIndex;
     private Animator animator;
     private string currentAnimation = "";
     private int speed = 0;
@@ -33,13 +34,17 @@ public class CharacterController : MonoBehaviour
     {
         if (ctx.performed)
         {
-            speed = 1;
-            Debug.Log("front");
+            if (!isMirro)
+            {
+                speed = 1;
+            }
+            else {
+                speed = -1;
+            }
         }
         else if (ctx.canceled)
         {
             speed = 0;
-            Debug.Log("stop");
         }
     }
 
@@ -48,13 +53,18 @@ public class CharacterController : MonoBehaviour
     {
         if (ctx.performed)
         {
-            speed = -1;
-            Debug.Log("back");
+            if (!isMirro)
+            {
+                speed = -1;
+            }
+            else
+            {
+                speed = 1;
+            }
         }
         else if (ctx.canceled)
         {
             speed = 0;
-            Debug.Log("stop");
         }
     }
     //Dodge
@@ -84,6 +94,7 @@ public class CharacterController : MonoBehaviour
     {
         if (ctx.performed)
         {
+            Debug.Log("quickAtacj");
             ChangeAnimation("quick_atk");
         }
 
@@ -114,6 +125,10 @@ public class CharacterController : MonoBehaviour
     }
 
 
+    public int getPlayerIndex() {
+
+        return PlayerIndex;
+    }
     private void HandleActions()
     {
         //// Attack
