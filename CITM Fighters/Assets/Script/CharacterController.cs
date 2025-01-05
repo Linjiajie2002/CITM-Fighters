@@ -11,6 +11,7 @@ public class CharacterController : MonoBehaviour
     private bool die = false;
     private bool win = false;
     private int life = 100;
+    public bool isMirro = false;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -21,6 +22,10 @@ public class CharacterController : MonoBehaviour
     {
         HandleActions();
         HandleAnimationCompletion();
+        if(isMirro)
+        {
+            animator.SetBool("isMirro", true);
+        }
     }
 
     //Move
@@ -187,13 +192,6 @@ public class CharacterController : MonoBehaviour
         if (speed < 0)
         {
             ChangeAnimation("walkback");
-        }
-
-
-        //Mirro
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            animator.SetBool("isMirro", true);
         }
 
     }

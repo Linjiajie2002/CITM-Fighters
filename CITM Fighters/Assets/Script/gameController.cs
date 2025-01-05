@@ -46,18 +46,18 @@ public partial class @GameController: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""DodgeLow"",
+                    ""name"": ""DodgeHigh"",
                     ""type"": ""Button"",
-                    ""id"": ""db777140-5d93-4772-8890-1501be23065e"",
+                    ""id"": ""22e36514-b89f-4e69-9d48-b53478099ee9"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""DodgeHigh"",
+                    ""name"": ""DodgeLow"",
                     ""type"": ""Button"",
-                    ""id"": ""22e36514-b89f-4e69-9d48-b53478099ee9"",
+                    ""id"": ""db777140-5d93-4772-8890-1501be23065e"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -124,6 +124,17 @@ public partial class @GameController: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
+                    ""name"": """",
+                    ""id"": ""0266cf97-54b6-4e1a-b0e8-f99356d29be4"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/hat/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""walkFront"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
                     ""name"": ""DodgeLow"",
                     ""id"": ""faade8be-d1e4-4d2f-aed4-1efb4201ccb2"",
                     ""path"": ""OneModifier"",
@@ -159,13 +170,46 @@ public partial class @GameController: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""742b25d0-a7d0-400d-b10c-257b4ccb9424"",
-                    ""path"": ""<Keyboard>/s"",
+                    ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""DodgeLow"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""SwitchDodgeLow"",
+                    ""id"": ""e605ebca-bd35-46c9-8114-907ac071a421"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeLow"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""d31f2f20-d84d-4c36-8850-5126ebe1062a"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/hat/up"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeLow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""95704731-96fd-497d-9e71-38583fcc28c6"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/button4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeLow"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 },
                 {
                     ""name"": """",
@@ -191,6 +235,17 @@ public partial class @GameController: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""3bf9cb7d-6c51-4dcf-a090-5b4eec9bc680"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/button3"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""QuickAtk"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""7f76512a-786e-4adc-8ceb-aef5847d1073"",
                     ""path"": ""<Gamepad>/leftStick/left"",
                     ""interactions"": """",
@@ -204,6 +259,17 @@ public partial class @GameController: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""5780aa51-0d00-4304-843e-3363e6378395"",
                     ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""walkBack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""80dcccea-9656-4bd7-a590-df79806a8fcf"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/hat/left"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -256,48 +322,37 @@ public partial class @GameController: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""DodgeHigh"",
-                    ""id"": ""2dfc7e15-548a-47ed-aebd-9cfaaa464ef6"",
+                    ""name"": ""SwitchLowQA"",
+                    ""id"": ""d20b7283-6866-42f0-bdf7-31077622b106"",
                     ""path"": ""OneModifier"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""DodgeHigh"",
+                    ""action"": ""Low_quick_atk"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": ""modifier"",
-                    ""id"": ""300f82c3-9573-43c8-b4ba-f6eca0c08255"",
-                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""id"": ""37ddc5b4-45c6-4d3a-bdb3-c7ec89ab68a0"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/hat/down"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""DodgeHigh"",
+                    ""action"": ""Low_quick_atk"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
                 {
                     ""name"": ""binding"",
-                    ""id"": ""031e9a99-fb0c-40c4-8fe6-cd5c01014072"",
-                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""id"": ""de2beafd-ab80-48e4-9553-c859c6977008"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/button3"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""DodgeHigh"",
+                    ""action"": ""Low_quick_atk"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""81d0e224-b7f8-422b-aa60-7cf0672652f3"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""DodgeHigh"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
@@ -314,6 +369,17 @@ public partial class @GameController: IInputActionCollection2, IDisposable
                     ""name"": """",
                     ""id"": ""27fc44f9-bae5-45f4-97c2-6fc4e11405d9"",
                     ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SlowAtk"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7597663a-8e50-4b19-aa7f-4d805f5b0a93"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/trigger"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -364,6 +430,116 @@ public partial class @GameController: IInputActionCollection2, IDisposable
                     ""action"": ""Low_Slow_atk"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""SwitchLA"",
+                    ""id"": ""f98faa6a-61dd-40c1-b9bf-5f293cecdfcf"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Low_Slow_atk"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""364557a1-8cd8-44d2-bcea-090cd69b9707"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/hat/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Low_Slow_atk"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""ab173a3d-ccfd-4fb1-a479-3e8529cf4401"",
+                    ""path"": ""<Joystick>/trigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Low_Slow_atk"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""DodgeHigh"",
+                    ""id"": ""2dfc7e15-548a-47ed-aebd-9cfaaa464ef6"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeHigh"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""300f82c3-9573-43c8-b4ba-f6eca0c08255"",
+                    ""path"": ""<Gamepad>/leftStick/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeHigh"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""031e9a99-fb0c-40c4-8fe6-cd5c01014072"",
+                    ""path"": ""<Gamepad>/buttonNorth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeHigh"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""81d0e224-b7f8-422b-aa60-7cf0672652f3"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeHigh"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""SwitchDogeHigh"",
+                    ""id"": ""cf360a77-5f73-47c5-ae77-7ecc725d4d32"",
+                    ""path"": ""OneModifier"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeHigh"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""modifier"",
+                    ""id"": ""abb2ffe0-6787-4bca-80db-08c3fbc8c7f2"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/hat/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeHigh"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""binding"",
+                    ""id"": ""59ee507e-cfbb-4088-b13e-02f8073c8cac"",
+                    ""path"": ""<HID::Nintendo Wireless Gamepad>/button4"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DodgeHigh"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -374,8 +550,8 @@ public partial class @GameController: IInputActionCollection2, IDisposable
         m_Player1 = asset.FindActionMap("Player1", throwIfNotFound: true);
         m_Player1_walkFront = m_Player1.FindAction("walkFront", throwIfNotFound: true);
         m_Player1_walkBack = m_Player1.FindAction("walkBack", throwIfNotFound: true);
-        m_Player1_DodgeLow = m_Player1.FindAction("DodgeLow", throwIfNotFound: true);
         m_Player1_DodgeHigh = m_Player1.FindAction("DodgeHigh", throwIfNotFound: true);
+        m_Player1_DodgeLow = m_Player1.FindAction("DodgeLow", throwIfNotFound: true);
         m_Player1_QuickAtk = m_Player1.FindAction("QuickAtk", throwIfNotFound: true);
         m_Player1_SlowAtk = m_Player1.FindAction("SlowAtk", throwIfNotFound: true);
         m_Player1_Low_quick_atk = m_Player1.FindAction("Low_quick_atk", throwIfNotFound: true);
@@ -443,8 +619,8 @@ public partial class @GameController: IInputActionCollection2, IDisposable
     private List<IPlayer1Actions> m_Player1ActionsCallbackInterfaces = new List<IPlayer1Actions>();
     private readonly InputAction m_Player1_walkFront;
     private readonly InputAction m_Player1_walkBack;
-    private readonly InputAction m_Player1_DodgeLow;
     private readonly InputAction m_Player1_DodgeHigh;
+    private readonly InputAction m_Player1_DodgeLow;
     private readonly InputAction m_Player1_QuickAtk;
     private readonly InputAction m_Player1_SlowAtk;
     private readonly InputAction m_Player1_Low_quick_atk;
@@ -455,8 +631,8 @@ public partial class @GameController: IInputActionCollection2, IDisposable
         public Player1Actions(@GameController wrapper) { m_Wrapper = wrapper; }
         public InputAction @walkFront => m_Wrapper.m_Player1_walkFront;
         public InputAction @walkBack => m_Wrapper.m_Player1_walkBack;
-        public InputAction @DodgeLow => m_Wrapper.m_Player1_DodgeLow;
         public InputAction @DodgeHigh => m_Wrapper.m_Player1_DodgeHigh;
+        public InputAction @DodgeLow => m_Wrapper.m_Player1_DodgeLow;
         public InputAction @QuickAtk => m_Wrapper.m_Player1_QuickAtk;
         public InputAction @SlowAtk => m_Wrapper.m_Player1_SlowAtk;
         public InputAction @Low_quick_atk => m_Wrapper.m_Player1_Low_quick_atk;
@@ -476,12 +652,12 @@ public partial class @GameController: IInputActionCollection2, IDisposable
             @walkBack.started += instance.OnWalkBack;
             @walkBack.performed += instance.OnWalkBack;
             @walkBack.canceled += instance.OnWalkBack;
-            @DodgeLow.started += instance.OnDodgeLow;
-            @DodgeLow.performed += instance.OnDodgeLow;
-            @DodgeLow.canceled += instance.OnDodgeLow;
             @DodgeHigh.started += instance.OnDodgeHigh;
             @DodgeHigh.performed += instance.OnDodgeHigh;
             @DodgeHigh.canceled += instance.OnDodgeHigh;
+            @DodgeLow.started += instance.OnDodgeLow;
+            @DodgeLow.performed += instance.OnDodgeLow;
+            @DodgeLow.canceled += instance.OnDodgeLow;
             @QuickAtk.started += instance.OnQuickAtk;
             @QuickAtk.performed += instance.OnQuickAtk;
             @QuickAtk.canceled += instance.OnQuickAtk;
@@ -504,12 +680,12 @@ public partial class @GameController: IInputActionCollection2, IDisposable
             @walkBack.started -= instance.OnWalkBack;
             @walkBack.performed -= instance.OnWalkBack;
             @walkBack.canceled -= instance.OnWalkBack;
-            @DodgeLow.started -= instance.OnDodgeLow;
-            @DodgeLow.performed -= instance.OnDodgeLow;
-            @DodgeLow.canceled -= instance.OnDodgeLow;
             @DodgeHigh.started -= instance.OnDodgeHigh;
             @DodgeHigh.performed -= instance.OnDodgeHigh;
             @DodgeHigh.canceled -= instance.OnDodgeHigh;
+            @DodgeLow.started -= instance.OnDodgeLow;
+            @DodgeLow.performed -= instance.OnDodgeLow;
+            @DodgeLow.canceled -= instance.OnDodgeLow;
             @QuickAtk.started -= instance.OnQuickAtk;
             @QuickAtk.performed -= instance.OnQuickAtk;
             @QuickAtk.canceled -= instance.OnQuickAtk;
@@ -543,8 +719,8 @@ public partial class @GameController: IInputActionCollection2, IDisposable
     {
         void OnWalkFront(InputAction.CallbackContext context);
         void OnWalkBack(InputAction.CallbackContext context);
-        void OnDodgeLow(InputAction.CallbackContext context);
         void OnDodgeHigh(InputAction.CallbackContext context);
+        void OnDodgeLow(InputAction.CallbackContext context);
         void OnQuickAtk(InputAction.CallbackContext context);
         void OnSlowAtk(InputAction.CallbackContext context);
         void OnLow_quick_atk(InputAction.CallbackContext context);
