@@ -352,6 +352,164 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1297036139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297036132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: b9ace9c6f17b75a4c86f9dcdb95fa446, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1297036135}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: walkfront
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7f2c22aa-3f56-4a9f-b0fd-263958a31049
+    m_ActionName: Player/Move
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1297036135}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: dodgeLow
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: db777140-5d93-4772-8890-1501be23065e
+    m_ActionName: Player/DodgeDown[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1297036135}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: quick_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 81f30535-13c1-45ec-a89b-6353bc75b152
+    m_ActionName: Player/AtkQuick
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1297036135}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: walkBack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: dbfa22c3-ff74-4056-9c3d-4f9b7228fe5c
+    m_ActionName: Player/walkBack[/XInputControllerWindows/dpad/left]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1297036135}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: low_quick_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: aa68faf1-8337-460c-bcb6-9f04cde2fb27
+    m_ActionName: Player1/Low_quick_atk[/XInputControllerWindows/leftStick/down,/XInputControllerWindows/buttonWest]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1297036135}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: dodgeHigh
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 22e36514-b89f-4e69-9d48-b53478099ee9
+    m_ActionName: Player1/DodgeHigh[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/buttonNorth,/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1297036135}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: slow_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 9e54f500-dae3-46a4-ac1d-d27d05628826
+    m_ActionName: Player1/SlowAtk[/XInputControllerWindows/buttonSouth,/Keyboard/k]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1297036135}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: low_slow_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 46c17cae-9d3c-4141-abba-c7801e7c7000
+    m_ActionName: Player1/Low_Slow_atk[/XInputControllerWindows/leftStick/down,/XInputControllerWindows/buttonWest,/Keyboard/i]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player1
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1001 &1760891896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -402,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       propertyPath: m_Name
-      value: Tpose
+      value: Hutao
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       propertyPath: m_Avatar
@@ -426,6 +584,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1297036136}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297036139}
   m_SourcePrefab: {fileID: 100100000, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
 --- !u!1001 &1976224563
 PrefabInstance:

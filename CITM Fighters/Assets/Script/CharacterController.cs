@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Animator))]
 public class CharacterController : MonoBehaviour
@@ -9,6 +10,7 @@ public class CharacterController : MonoBehaviour
     private int dodge = 0;
     private bool die = false;
     private bool win = false;
+    private int life = 100;
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -21,80 +23,158 @@ public class CharacterController : MonoBehaviour
         HandleAnimationCompletion();
     }
 
-    private void HandleActions()
+    //Move
+    public void walkfront(InputAction.CallbackContext ctx)
     {
-        // 示例：按下 N 键触发 WalkFront 动画
-        if (Input.GetKeyDown(KeyCode.J))
+        if (ctx.performed)
         {
-            ChangeAnimation("quick_atk");
+            speed = 1;
+            Debug.Log("front");
         }
-        if (Input.GetKeyDown(KeyCode.K))
+        else if (ctx.canceled)
         {
-            ChangeAnimation("slow_atk");
+            speed = 0;
+            Debug.Log("stop");
         }
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            ChangeAnimation("low_quick_atk");
-        }
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            ChangeAnimation("low_slow_atk");
-        }
-
-        if (Input.GetKeyDown(KeyCode.C))
-        {
-            ChangeAnimation("die");
-            die = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            ChangeAnimation("win");
-            win = true;
-        }
+    }
 
 
+    public void walkBack(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            speed = -1;
+            Debug.Log("back");
+        }
+        else if (ctx.canceled)
+        {
+            speed = 0;
+            Debug.Log("stop");
+        }
+    }
+    //Dodge
+    public void dodgeLow(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            ChangeAnimation("dodge_low");
+        }
+    }
 
-        // 示例：按下 J 键触发 QuickAttack 动画
-        if (Input.GetKeyDown(KeyCode.S) && speed == 0)
+    public void dodgeHigh(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
         {
             dodge = 1;
         }
-
-        // 示例：按下 J 键触发 QuickAttack 动画
-        if (Input.GetKeyUp(KeyCode.S))
+        else if (ctx.canceled)
         {
             dodge = 0;
         }
 
-        // 示例：按下 J 键触发 QuickAttack 动画
-        if (Input.GetKeyUp(KeyCode.W))
+    }
+
+    //Attack
+    public void quick_atk(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
         {
-            ChangeAnimation("dodge_low");
+            ChangeAnimation("quick_atk");
         }
 
-
-        // 示例：按下 J 键触发 QuickAttack 动画
-        if (Input.GetKeyDown(KeyCode.D))
+    }
+    public void slow_atk(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
         {
-            speed = 1;
+            ChangeAnimation("slow_atk");
         }
 
-        if (Input.GetKeyDown(KeyCode.A) && dodge == 0)
+    }
+    public void low_quick_atk(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
         {
-            speed = -1;
+            ChangeAnimation("low_quick_atk");
         }
-        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+    }
+
+    public void low_slow_atk(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
         {
-            speed = 0;
+            ChangeAnimation("low_slow_atk");
         }
 
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            ChangeAnimation("idle");
-        }
+    }
 
-        if (dodge != 0 )
+
+    private void HandleActions()
+    {
+        //// Attack
+        //if (Input.GetKeyDown(KeyCode.J))
+        //{
+        //    ChangeAnimation("quick_atk");
+        //}
+        //if (Input.GetKeyDown(KeyCode.K))
+        //{
+        //    ChangeAnimation("slow_atk");
+        //}
+        //if (Input.GetKeyDown(KeyCode.U))
+        //{
+        //    ChangeAnimation("low_quick_atk");
+        //}
+        //if (Input.GetKeyDown(KeyCode.I))
+        //{
+        //    ChangeAnimation("low_slow_atk");
+        //}
+
+        ////Win and Die
+        //if (Input.GetKeyDown(KeyCode.C))
+        //{
+        //    ChangeAnimation("die");
+        //    die = true;
+        //}
+        //if (Input.GetKeyDown(KeyCode.V))
+        //{
+        //    ChangeAnimation("win");
+        //    win = true;
+        //}
+
+
+        ////Dodge
+        //if (Input.GetKeyDown(KeyCode.S) && speed == 0)
+        //{
+        //    dodge = 1;
+        //}
+        //if (Input.GetKeyUp(KeyCode.S))
+        //{
+        //    dodge = 0;
+        //}
+        //if (Input.GetKeyUp(KeyCode.W))
+        //{
+        //    ChangeAnimation("dodge_low");
+        //}
+
+
+
+        ////Move
+        //if (Input.GetKeyDown(KeyCode.D))
+        //{
+        //    speed = 1;
+        //}
+
+        //if (Input.GetKeyDown(KeyCode.A) && dodge == 0)
+        //{
+        //    speed = -1;
+        //}
+        //if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+        //{
+        //    speed = 0;
+        //}
+
+
+        if (dodge != 0)
         {
             ChangeAnimation("dodge_high");
         }
@@ -108,14 +188,19 @@ public class CharacterController : MonoBehaviour
         {
             ChangeAnimation("walkback");
         }
+
+
+        //Mirro
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            animator.SetBool("isMirro", true);
+        }
+
     }
 
     private void HandleAnimationCompletion()
     {
-        // 获取当前动画状态
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-
-        // 如果动画播放完毕并且不是 Idle 状态，切换回 Idle
         if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed == 0 && dodge == 0 && !die && !win)
         {
             ChangeAnimation("idle");
