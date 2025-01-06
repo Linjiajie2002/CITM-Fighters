@@ -12,6 +12,7 @@ public class SmoothCameraMovement : MonoBehaviour
 
     private float elapsedTime = 0.0f; 
     private bool isMoving = false;
+    public bool MoveCamera = false;
 
     void Start()
     {
@@ -23,7 +24,7 @@ public class SmoothCameraMovement : MonoBehaviour
     void Update()
     {
         // 按键触发运镜（例如按下空格键）
-        if (Input.GetKeyDown(KeyCode.Space) && !isMoving)
+        if (MoveCamera && !isMoving)
         {
             isMoving = true;
             elapsedTime = 0.0f; 
@@ -45,6 +46,7 @@ public class SmoothCameraMovement : MonoBehaviour
             if (progress >= 1.0f)
             {
                 isMoving = false;
+                MoveCamera = false; 
             }
         }
     }
