@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        //SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(0);
     }
 
     public void ContinueGame()
@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         //Go scene GameOver
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(1);
     }
 
     public void EndGame()

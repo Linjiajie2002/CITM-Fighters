@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Player2
+  - p1RightHand
+  - p1LeftHand
+  - p1RightFoot
+  - p1LeftFoot
+  - attack
   layers:
   - Default
   - TransparentFX
