@@ -16,7 +16,10 @@ public class UIManager : MonoBehaviour
     public GameObject StartGameUI;
     public SmoothCameraMovement camera;
 
-    private ScreenOrientation lastOrientation;
+    public InputAndRumbleManager inputManager;
+
+    public bool Player1Ready = false;
+    public bool Player2Ready = false;
 
 
     void Start()
@@ -38,15 +41,22 @@ public class UIManager : MonoBehaviour
         else
             Debug.LogWarning("Quit Button is not assigned!");
 
-        StartGameUI.SetActive(true);
+        StartGameUI.SetActive(false);
 
         // Set UI based on the current scene
         UpdateUIForCurrentScene();
     }
 
+    void Update()
+    {
 
+        if (Player1Ready && Player2Ready) {
+            StartGameUI.SetActive(true);
+        }
+    }
     void UpdateUIForCurrentScene()
     {
+      
         string currentScene = SceneManager.GetActiveScene().name;
 
         // Log the current scene for debugging
@@ -117,7 +127,5 @@ public class UIManager : MonoBehaviour
 
 
 
-    void Update()
-    {
-    }
+
 }

@@ -10,12 +10,28 @@ public class InputAndRumbleManager : MonoBehaviour
     private CharacterController _playerController;
     // Start is called before the first frame update
 
+    private  UIManager uimanager;
 
     private void Awake()
     {
+        uimanager = FindObjectOfType<UIManager>();
+
         _playerInput = GetComponent<PlayerInput>();
         var PlayercControllers = FindObjectsOfType<CharacterController>();
         _playerController = PlayercControllers.FirstOrDefault(m => m.getPlayerIndex() == _playerInput.playerIndex);
+
+        if (_playerController != null)
+        {
+            if (_playerInput.playerIndex == 0)
+            {
+                uimanager.Player1Ready = true;
+            }
+            if (_playerInput.playerIndex == 1)
+            {
+                uimanager.Player2Ready = true;
+
+            }
+        }
 
     }
     void Start()
