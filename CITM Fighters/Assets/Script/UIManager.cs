@@ -14,6 +14,8 @@ public class UIManager : MonoBehaviour
     public Button quitButton;
 
     public GameObject StartGameUI;
+    public GameObject Player1UI;
+    public GameObject Player2UI;
     public SmoothCameraMovement camera;
 
     public InputAndRumbleManager inputManager;
@@ -42,6 +44,9 @@ public class UIManager : MonoBehaviour
             Debug.LogWarning("Quit Button is not assigned!");
 
         StartGameUI.SetActive(false);
+        Player1UI.SetActive(true);
+        Player2UI.SetActive(false);
+
 
         // Set UI based on the current scene
         UpdateUIForCurrentScene();
@@ -49,9 +54,19 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
+        if (Player1Ready) {
+            Player1UI.SetActive(false);
+            Player2UI.SetActive(true);
+        }
+
+        if (Player2Ready)
+        {
+            Player2UI.SetActive(false);
+        }
 
         if (Player1Ready && Player2Ready) {
             StartGameUI.SetActive(true);
+
         }
     }
     void UpdateUIForCurrentScene()
@@ -105,6 +120,8 @@ public class UIManager : MonoBehaviour
         // Start a new game and load the main game scene
         Debug.Log("StartGame!!");
         camera.MoveCamera = true;
+        Player1Ready = false;
+        Player2Ready = false;
         StartGameUI.SetActive(false);
     }
 
