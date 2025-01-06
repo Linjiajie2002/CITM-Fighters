@@ -48,7 +48,7 @@ public class InputAndRumbleManager : MonoBehaviour
     //Move
     public void walkfront(InputAction.CallbackContext ctx)
     {
-        if (_playerController != null)
+        if (_playerController != null && !_playerController.gameFinish && uimanager.gameStart)
         {
             _playerController.walkfront(ctx);
 
@@ -58,7 +58,7 @@ public class InputAndRumbleManager : MonoBehaviour
 
     public void walkBack(InputAction.CallbackContext ctx)
     {
-        if (_playerController != null)
+        if (_playerController != null && !_playerController.gameFinish && uimanager.gameStart)
         {
             _playerController.walkBack(ctx);
 
@@ -68,7 +68,7 @@ public class InputAndRumbleManager : MonoBehaviour
     //Dodge
     public void dodgeLow(InputAction.CallbackContext ctx)
     {
-        if (_playerController != null)
+        if (_playerController != null && !_playerController.gameFinish && uimanager.gameStart)
         {
             _playerController.dodgeLow(ctx);
 
@@ -77,7 +77,7 @@ public class InputAndRumbleManager : MonoBehaviour
 
     public void dodgeHigh(InputAction.CallbackContext ctx)
     {
-        if (_playerController != null)
+        if (_playerController != null && !_playerController.gameFinish && uimanager.gameStart)
         {
             _playerController.dodgeHigh(ctx);
 
@@ -88,7 +88,7 @@ public class InputAndRumbleManager : MonoBehaviour
     //Attack
     public void quick_atk(InputAction.CallbackContext ctx)
     {
-        if (_playerController != null)
+        if (_playerController != null && !_playerController.gameFinish && uimanager.gameStart)
         {
             _playerController.quick_atk(ctx);
 
@@ -97,7 +97,7 @@ public class InputAndRumbleManager : MonoBehaviour
     }
     public void slow_atk(InputAction.CallbackContext ctx)
     {
-        if (_playerController != null)
+        if (_playerController != null && !_playerController.gameFinish && uimanager.gameStart)
         {
             _playerController.slow_atk(ctx);
 
@@ -106,7 +106,7 @@ public class InputAndRumbleManager : MonoBehaviour
     }
     public void low_quick_atk(InputAction.CallbackContext ctx)
     {
-        if (_playerController != null)
+        if (_playerController != null && !_playerController.gameFinish && uimanager.gameStart)
         {
             _playerController.low_quick_atk(ctx);
 
@@ -115,7 +115,7 @@ public class InputAndRumbleManager : MonoBehaviour
 
     public void low_slow_atk(InputAction.CallbackContext ctx)
     {
-        if (_playerController != null)
+        if (_playerController != null && !_playerController.gameFinish && uimanager.gameStart)
         {
             _playerController.low_slow_atk(ctx);
 

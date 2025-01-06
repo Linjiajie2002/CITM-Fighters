@@ -9,10 +9,12 @@ public class CharacterController : MonoBehaviour
     private string currentAnimation = "";
     private int speed = 0;
     private int dodge = 0;
-    private bool die = false;
-    private bool win = false;
     private int life = 100;
     public bool isMirro = false;
+    public bool isHit = false;
+    public bool gameFinish = false;
+
+    // 当另一个物体进入触发器区域时调用
 
     void Start()
     {
@@ -23,6 +25,13 @@ public class CharacterController : MonoBehaviour
 
     void Update()
     {
+        AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        if (stateInfo.normalizedTime >= 1f)  // normalizedTime 从 0 到 1
+        {
+            isHit = false;
+        }
+
+        //Debug.Log("isHit"+ isHit);
         HandleActions();
         HandleAnimationCompletion();
         if(isMirro)
@@ -97,8 +106,8 @@ public class CharacterController : MonoBehaviour
     {
         if (ctx.performed)
         {
-            Debug.Log("quickAtacj");
             ChangeAnimation("quick_atk");
+            isHit = true;
         }
 
     }
@@ -107,6 +116,7 @@ public class CharacterController : MonoBehaviour
         if (ctx.performed)
         {
             ChangeAnimation("slow_atk");
+            isHit = true;
         }
 
     }
@@ -115,6 +125,7 @@ public class CharacterController : MonoBehaviour
         if (ctx.performed)
         {
             ChangeAnimation("low_quick_atk");
+            isHit = true;
         }
     }
 
@@ -123,6 +134,7 @@ public class CharacterController : MonoBehaviour
         if (ctx.performed)
         {
             ChangeAnimation("low_slow_atk");
+            isHit = true;
         }
 
     }
@@ -214,10 +226,21 @@ public class CharacterController : MonoBehaviour
 
     }
 
+    public void dieAnimation() {
+        ChangeAnimation("die");
+        gameFinish = true;
+    }
+
+    public void winAnimation()
+    {
+        ChangeAnimation("win");
+        gameFinish = true;
+    }
+
     private void HandleAnimationCompletion()
     {
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed == 0 && dodge == 0 && !die && !win)
+        if (stateInfo.normalizedTime >= 1.0f && !stateInfo.IsName("idle") && speed == 0 && dodge == 0 && !gameFinish)
         {
             ChangeAnimation("idle");
         }
@@ -231,4 +254,7 @@ public class CharacterController : MonoBehaviour
             animator.CrossFade(animation, crossfade);
         }
     }
+
+   
+
 }

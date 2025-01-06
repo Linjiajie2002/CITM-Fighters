@@ -22,6 +22,7 @@ public class UIManager : MonoBehaviour
 
     public bool Player1Ready = false;
     public bool Player2Ready = false;
+    public bool gameStart = false;
 
 
     void Start()
@@ -66,6 +67,7 @@ public class UIManager : MonoBehaviour
 
         if (Player1Ready && Player2Ready) {
             StartGameUI.SetActive(true);
+           
 
         }
     }

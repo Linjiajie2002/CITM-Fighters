@@ -14,16 +14,17 @@ public class SmoothCameraMovement : MonoBehaviour
     private bool isMoving = false;
     public bool MoveCamera = false;
 
+    private UIManager manager;
+
     void Start()
     {
-        
+        manager = FindObjectOfType<UIManager>();
         transform.position = startPosition;
         transform.rotation = startRotation;
     }
 
     void Update()
     {
-        // 按键触发运镜（例如按下空格键）
         if (MoveCamera && !isMoving)
         {
             isMoving = true;
@@ -46,7 +47,8 @@ public class SmoothCameraMovement : MonoBehaviour
             if (progress >= 1.0f)
             {
                 isMoving = false;
-                MoveCamera = false; 
+                MoveCamera = false;
+                manager.gameStart = true;
             }
         }
     }
