@@ -1291,6 +1291,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1438334770}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1438334773}
     - targetCorrespondingSourceObject: {fileID: 7020596239511826235, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1665300062}
@@ -1787,6 +1790,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: attack
   Enemy: {fileID: 1438334766}
+--- !u!65 &1297036143
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297036132}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Center: {x: 1.5, y: 0, z: 0}
 --- !u!1 &1423807081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2106,6 +2130,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: attack
   Enemy: {fileID: 1297036135}
+--- !u!65 &1438334773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438334763}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Center: {x: -1, y: 0, z: 0}
 --- !u!1 &1515281144
 GameObject:
   m_ObjectHideFlags: 0
@@ -2444,6 +2489,7 @@ MonoBehaviour:
   Player1Ready: 0
   Player2Ready: 0
   gameStart: 0
+  gameEnd: 0
 --- !u!4 &1743340523
 Transform:
   m_ObjectHideFlags: 0
@@ -2566,6 +2612,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1297036140}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297036143}
     - targetCorrespondingSourceObject: {fileID: 7020596239511826235, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1990012528}
