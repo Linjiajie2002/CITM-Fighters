@@ -13,10 +13,12 @@ public class CharacterController : MonoBehaviour
     private bool win = false;
     private int life = 100;
     public bool isMirro = false;
+
     void Start()
     {
         animator = GetComponent<Animator>();
         ChangeAnimation("idle");
+  
     }
 
     void Update()
@@ -28,6 +30,7 @@ public class CharacterController : MonoBehaviour
             animator.SetBool("isMirro", true);
         }
     }
+
 
     //Move
     public void walkfront(InputAction.CallbackContext ctx)
