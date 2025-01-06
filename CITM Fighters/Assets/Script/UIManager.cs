@@ -23,6 +23,7 @@ public class UIManager : MonoBehaviour
     public bool Player1Ready = false;
     public bool Player2Ready = false;
     public bool gameStart = false;
+    public bool gameEnd = false;
 
 
     void Start()
@@ -44,10 +45,13 @@ public class UIManager : MonoBehaviour
         else
             Debug.LogWarning("Quit Button is not assigned!");
 
-        StartGameUI.SetActive(false);
-        Player1UI.SetActive(true);
-        Player2UI.SetActive(false);
-
+        if (StartGameUI != null)
+        {
+            StartGameUI.SetActive(false);
+            Player1UI.SetActive(true);
+            Player2UI.SetActive(false);
+        }
+       
 
         // Set UI based on the current scene
         UpdateUIForCurrentScene();
@@ -55,7 +59,8 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        if (Player1Ready) {
+        if (Player1Ready)
+        {
             Player1UI.SetActive(false);
             Player2UI.SetActive(true);
         }
@@ -65,19 +70,24 @@ public class UIManager : MonoBehaviour
             Player2UI.SetActive(false);
         }
 
-        if (Player1Ready && Player2Ready) {
+        if (Player1Ready && Player2Ready)
+        {
             StartGameUI.SetActive(true);
-           
 
         }
     }
     void UpdateUIForCurrentScene()
     {
-      
+
         string currentScene = SceneManager.GetActiveScene().name;
 
         // Log the current scene for debugging
-        Debug.Log(currentScene);
+        //Debug.Log(currentScene);
+
+        //if (currentScene == "end") {
+
+        //    gameEnd = true;
+        //}
 
         //// Activate/deactivate UI elements based on the current scene
         //if (currentScene == "MainMenu")
@@ -132,7 +142,6 @@ public class UIManager : MonoBehaviour
     {
         // Start a new game and load the main game scene
         GameManager.instance.StartGame();
-        SceneManager.LoadScene("MainGame");
     }
 
     void OnQuitButtonClicked()

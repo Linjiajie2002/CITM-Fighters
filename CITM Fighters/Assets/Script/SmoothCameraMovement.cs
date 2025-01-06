@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class SmoothCameraMovement : MonoBehaviour
 {
@@ -19,16 +20,23 @@ public class SmoothCameraMovement : MonoBehaviour
     private UIManager manager;
     private CharacterController _playerController;
     private GameManager gameManager;
-
-    private bool waitingForTransition = false;  
+    private bool waitingForTransition = false;
 
     void Start()
     {
         manager = FindObjectOfType<UIManager>();
         gameManager = FindObjectOfType<GameManager>();
+
         _playerController = FindObjectOfType<CharacterController>();
         transform.position = startPosition;
         transform.rotation = startRotation;
+
+        string currentScene = SceneManager.GetActiveScene().name;
+        if (currentScene == "end")
+        {
+
+            manager.gameEnd = true;
+        }
     }
 
     void Update()
@@ -37,13 +45,13 @@ public class SmoothCameraMovement : MonoBehaviour
         if (MoveCamera && !isMoving)
         {
             isMoving = true;
-            elapsedTime = 0.0f;  
+            elapsedTime = 0.0f;
         }
 
 
         if (isMoving)
         {
-            elapsedTime += Time.deltaTime; 
+            elapsedTime += Time.deltaTime;
 
 
             float progress = Mathf.Clamp01(elapsedTime / moveDuration);
@@ -58,36 +66,42 @@ public class SmoothCameraMovement : MonoBehaviour
                 isMoving = false;
                 MoveCamera = false;
                 manager.gameStart = true;
-                if (_playerController.gameFinish) {
+                if (_playerController.gameFinish)
+                {
                     gameManager.GameOver();
+                   
                 }
             }
         }
-   
-        if (_playerController.gameFinish && !waitingForTransition)
+
+        if (!manager.gameEnd)
         {
-            StartCoroutine(WaitBeforeTransition(5f));  
+            //Debug.Log("manager.gameEnd"+ manager.gameEnd);
+            if (_playerController.gameFinish && !waitingForTransition)
+            {
+                StartCoroutine(WaitBeforeTransition(5f));
+            }
         }
     }
 
     private IEnumerator WaitBeforeTransition(float delay)
     {
-        waitingForTransition = true;  
+        waitingForTransition = true;
 
-  
+
         yield return new WaitForSeconds(delay);
 
-       
-        targetPosition = new Vector3(0, 21, 37); 
-        targetRotation = Quaternion.Euler(0, 180, 0);  
 
-       
+        targetPosition = new Vector3(0, 21, 37);
+        targetRotation = Quaternion.Euler(0, 180, 0);
+
+
         startPosition = transform.position;
         startRotation = transform.rotation;
 
-        
+
         MoveCamera = true;
 
-        waitingForTransition = false; 
+        waitingForTransition = false;
     }
 }
