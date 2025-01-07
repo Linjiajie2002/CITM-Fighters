@@ -273,6 +273,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &71860087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7430117371284206479, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
+  m_PrefabInstance: {fileID: 1760891896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &71860090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 71860087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5e5f5f25b03bd489e3f221643b39ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dissolveSpeed: 0.5
+  _playerController: {fileID: 0}
 --- !u!1 &76033222 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6665400181868944625, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
@@ -1275,6 +1294,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: attack
       objectReference: {fileID: 0}
+    - target: {fileID: 7430117371284206479, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
+      propertyPath: m_TagString
+      value: Player2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1728,6 +1751,9 @@ MonoBehaviour:
   isMirro: 0
   isHit: 0
   gameFinish: 0
+  isDie: 0
+  isWin: 0
+  currentTag: 
 --- !u!54 &1297036136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2095,6 +2121,9 @@ MonoBehaviour:
   isMirro: 1
   isHit: 0
   gameFinish: 0
+  isDie: 0
+  isWin: 0
+  currentTag: 
 --- !u!65 &1438334769
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2615,6 +2644,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1297036143}
+    - targetCorrespondingSourceObject: {fileID: 7430117371284206479, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 71860090}
     - targetCorrespondingSourceObject: {fileID: 7020596239511826235, guid: f7585e3f557e11e47b74f016c8325284, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1990012528}
