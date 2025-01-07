@@ -281,7 +281,19 @@ MonoBehaviour:
     m_ActionId: 22e36514-b89f-4e69-9d48-b53478099ee9
     m_ActionName: Player1/DodgeHigh[/Keyboard/s]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1066732648}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: dodgeLow
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: db777140-5d93-4772-8890-1501be23065e
     m_ActionName: Player1/DodgeLow[/Keyboard/w]
   - m_PersistentCalls:
@@ -345,6 +357,12 @@ MonoBehaviour:
   isMirro: 0
   isHit: 0
   gameFinish: 0
+  isDie: 0
+  isWin: 0
+  isDieFinish: 0
+  currentTag: 
+  endFX: {fileID: 0}
+  punchFX: {fileID: 0}
 --- !u!1 &1324672649
 GameObject:
   m_ObjectHideFlags: 0
