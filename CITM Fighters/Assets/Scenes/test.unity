@@ -301,7 +301,19 @@ MonoBehaviour:
     m_ActionId: 81f30535-13c1-45ec-a89b-6353bc75b152
     m_ActionName: Player1/QuickAtk[/Keyboard/j]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1066732648}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: slow_atk
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 9e54f500-dae3-46a4-ac1d-d27d05628826
     m_ActionName: Player1/SlowAtk[/Keyboard/k]
   - m_PersistentCalls:
@@ -331,6 +343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerIndex: 0
   isMirro: 0
+  isHit: 0
+  gameFinish: 0
 --- !u!1 &1324672649
 GameObject:
   m_ObjectHideFlags: 0
