@@ -16,9 +16,9 @@ public class CharacterController : MonoBehaviour
     public bool isDie = false;
     public bool isWin = false;
 
-   public string currentTag;
+    public string currentTag;
 
-    // 当另一个物体进入触发器区域时调用
+    public AudioSource endFX;
 
     void Start()
     {
@@ -239,6 +239,7 @@ public class CharacterController : MonoBehaviour
             ChangeAnimation("die");
             gameFinish = true;
             isDie = true;
+            Invoke(nameof(PlayAudio), 1.5f);
         }
     }
 
@@ -250,6 +251,11 @@ public class CharacterController : MonoBehaviour
             gameFinish = true;
             isWin = true;
         }
+    }
+
+    private void PlayAudio()
+    {
+        endFX.Play();
     }
 
     private void HandleAnimationCompletion()
