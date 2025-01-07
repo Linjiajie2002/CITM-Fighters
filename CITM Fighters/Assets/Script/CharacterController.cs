@@ -19,6 +19,7 @@ public class CharacterController : MonoBehaviour
     public string currentTag;
 
     public AudioSource endFX;
+    public AudioSource punchFX;
 
     void Start()
     {
@@ -113,6 +114,8 @@ public class CharacterController : MonoBehaviour
         {
             ChangeAnimation("quick_atk");
             isHit = true;
+            Invoke(nameof(PlayPunchFx), 0.5f);
+            //punchFX.Play();
         }
 
     }
@@ -122,6 +125,7 @@ public class CharacterController : MonoBehaviour
         {
             ChangeAnimation("slow_atk");
             isHit = true;
+            Invoke(nameof(PlayPunchFx), 1f);
         }
 
     }
@@ -239,7 +243,7 @@ public class CharacterController : MonoBehaviour
             ChangeAnimation("die");
             gameFinish = true;
             isDie = true;
-            Invoke(nameof(PlayAudio), 1.5f);
+            Invoke(nameof(PlayEndFx), 1.5f);
         }
     }
 
@@ -253,9 +257,17 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    private void PlayAudio()
+    private void PlayEndFx()
     {
-        endFX.Play();
+        if (endFX != null)
+        {
+            endFX.Play();
+        }
+    }
+
+    private void PlayPunchFx()
+    {
+        punchFX.Play();
     }
 
     private void HandleAnimationCompletion()
