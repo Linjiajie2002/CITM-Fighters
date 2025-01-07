@@ -66,10 +66,14 @@ public class SmoothCameraMovement : MonoBehaviour
                 isMoving = false;
                 MoveCamera = false;
                 manager.gameStart = true;
+
                 if (_playerController.gameFinish)
                 {
                     gameManager.GameOver();
-                   
+
+                }
+                else { 
+                    manager.PlayMusicInFight();
                 }
             }
         }
@@ -99,7 +103,7 @@ public class SmoothCameraMovement : MonoBehaviour
         startPosition = transform.position;
         startRotation = transform.rotation;
 
-
+        manager.StopMusicInFight();
         MoveCamera = true;
 
         waitingForTransition = false;

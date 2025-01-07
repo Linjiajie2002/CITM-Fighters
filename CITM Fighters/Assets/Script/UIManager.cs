@@ -4,6 +4,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEngine.Windows.WebCam.VideoCapture;
 
 public class UIManager : MonoBehaviour
 {
@@ -24,6 +25,11 @@ public class UIManager : MonoBehaviour
     public bool Player2Ready = false;
     public bool gameStart = false;
     public bool gameEnd = false;
+
+
+    public AudioSource audioStart;
+    public AudioSource audioInFight;
+    public AudioSource audioEnd;
 
 
     void Start()
@@ -50,11 +56,12 @@ public class UIManager : MonoBehaviour
             StartGameUI.SetActive(false);
             Player1UI.SetActive(true);
             Player2UI.SetActive(false);
+            audioStart.Play();
+            audioInFight.Stop();
         }
-       
-
-        // Set UI based on the current scene
-        UpdateUIForCurrentScene();
+        else {
+            audioEnd.Play();
+        }
     }
 
     void Update()
@@ -76,57 +83,6 @@ public class UIManager : MonoBehaviour
 
         }
     }
-    void UpdateUIForCurrentScene()
-    {
-
-        string currentScene = SceneManager.GetActiveScene().name;
-
-        // Log the current scene for debugging
-        //Debug.Log(currentScene);
-
-        //if (currentScene == "end") {
-
-        //    gameEnd = true;
-        //}
-
-        //// Activate/deactivate UI elements based on the current scene
-        //if (currentScene == "MainMenu")
-        //{
-        //    Debug.Log("Activating Main Menu UI");
-
-        //    if (gameUI != null)
-        //        gameUI.SetActive(false);
-        //    if (gameOverUI != null)
-        //        gameOverUI.SetActive(false);
-        //}
-        //else if (currentScene == "MainGame")
-        //{
-        //    Debug.Log("Activating Main Game UI");
-        //    mainMenuUI.SetActive(false);
-        //    settingsPanel.SetActive(false);
-        //    if (gameUI != null)
-        //        gameUI.SetActive(true);
-        //    if (gameOverUI != null)
-        //        gameOverUI.SetActive(false);
-        //}
-        //else if (currentScene == "GameOver")
-        //{
-        //    Debug.Log("Activating Game Over UI");
-        //    mainMenuUI.SetActive(false);
-
-        //    if (gameUI != null)
-        //        gameUI.SetActive(false);
-        //    if (gameOverUI != null)
-        //        gameOverUI.SetActive(true);
-        //}
-        //else
-        //{
-        //    Debug.Log("No UI to activate for this scene");
-        //}
-    }
-
-
-
     void OnStartGameButtonClicked()
     {
         // Start a new game and load the main game scene
@@ -135,6 +91,34 @@ public class UIManager : MonoBehaviour
         Player1Ready = false;
         Player2Ready = false;
         StartGameUI.SetActive(false);
+        StartCoroutine(FadeOut(audioStart, 2));
+    }
+
+
+    public void PlayMusicInFight()
+    {
+
+        audioInFight.Play();
+    }
+
+    public void StopMusicInFight() {
+        StartCoroutine(FadeOut(audioInFight, 2));
+    }
+
+    IEnumerator FadeOut(AudioSource audioSource, float duration)
+    {
+        float startVolume = audioSource.volume;
+
+        // 音量渐变过程
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / duration;  // 按照时间递减音量
+            yield return null;  // 等待下一帧
+        }
+
+        // 停止播放并恢复音量
+        audioSource.Stop();
+        audioSource.volume = startVolume;  // 恢复初始音量
     }
 
 
