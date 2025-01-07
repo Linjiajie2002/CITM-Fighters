@@ -15,7 +15,7 @@ public class CharacterController : MonoBehaviour
     public bool gameFinish = false;
     public bool isDie = false;
     public bool isWin = false;
-
+    public bool isDieFinish = false;
     public string currentTag;
 
     public AudioSource endFX;
@@ -34,6 +34,9 @@ public class CharacterController : MonoBehaviour
         if (stateInfo.normalizedTime >= 1f)  // normalizedTime ´Ó 0 µ½ 1
         {
             isHit = false;
+            if (stateInfo.IsName("die")) {
+                isDieFinish = true;
+            }
         }
 
         //Debug.Log("isHit"+ isHit);
