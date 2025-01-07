@@ -13,6 +13,10 @@ public class CharacterController : MonoBehaviour
     public bool isMirro = false;
     public bool isHit = false;
     public bool gameFinish = false;
+    public bool isDie = false;
+    public bool isWin = false;
+
+   public string currentTag;
 
     // 当另一个物体进入触发器区域时调用
 
@@ -20,7 +24,7 @@ public class CharacterController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         ChangeAnimation("idle");
-  
+
     }
 
     void Update()
@@ -34,7 +38,7 @@ public class CharacterController : MonoBehaviour
         //Debug.Log("isHit"+ isHit);
         HandleActions();
         HandleAnimationCompletion();
-        if(isMirro)
+        if (isMirro)
         {
             animator.SetBool("isMirro", true);
         }
@@ -50,7 +54,8 @@ public class CharacterController : MonoBehaviour
             {
                 speed = 1;
             }
-            else {
+            else
+            {
                 speed = -1;
             }
         }
@@ -140,7 +145,8 @@ public class CharacterController : MonoBehaviour
     }
 
 
-    public int getPlayerIndex() {
+    public int getPlayerIndex()
+    {
 
         return PlayerIndex;
     }
@@ -214,7 +220,7 @@ public class CharacterController : MonoBehaviour
             ChangeAnimation("dodge_high");
         }
 
-        if (speed > 0 && dodge == 0 )
+        if (speed > 0 && dodge == 0)
         {
             ChangeAnimation("walkfront");
         }
@@ -226,15 +232,24 @@ public class CharacterController : MonoBehaviour
 
     }
 
-    public void dieAnimation() {
-        ChangeAnimation("die");
-        gameFinish = true;
+    public void dieAnimation()
+    {
+        if (!isDie && !isWin)
+        {
+            ChangeAnimation("die");
+            gameFinish = true;
+            isDie = true;
+        }
     }
 
     public void winAnimation()
     {
-        ChangeAnimation("win");
-        gameFinish = true;
+        if (!isDie && !isWin)
+        {
+            ChangeAnimation("win");
+            gameFinish = true;
+            isWin = true;
+        }
     }
 
     private void HandleAnimationCompletion()
@@ -255,6 +270,6 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-   
+
 
 }
