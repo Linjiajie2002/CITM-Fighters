@@ -57,7 +57,7 @@ public class DissolveSphere : MonoBehaviour
     private void OnDissolveComplete()
     {
         
-        Debug.Log("Dissolve completed!");
+        //Debug.Log("Dissolve completed!");
         Destroy(gameObject); 
     }
 }

@@ -86,7 +86,7 @@ public class UIManager : MonoBehaviour
     void OnStartGameButtonClicked()
     {
         // Start a new game and load the main game scene
-        Debug.Log("StartGame!!");
+        //Debug.Log("StartGame!!");
         camera.MoveCamera = true;
         Player1Ready = false;
         Player2Ready = false;
