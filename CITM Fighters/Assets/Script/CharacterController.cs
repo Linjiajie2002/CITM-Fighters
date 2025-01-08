@@ -34,7 +34,8 @@ public class CharacterController : MonoBehaviour
         if (stateInfo.normalizedTime >= 1f)  // normalizedTime ´Ó 0 µ½ 1
         {
             isHit = false;
-            if (stateInfo.IsName("die")) {
+            if (stateInfo.IsName("die"))
+            {
                 isDieFinish = true;
             }
         }
@@ -270,7 +271,10 @@ public class CharacterController : MonoBehaviour
 
     private void PlayPunchFx()
     {
-        punchFX.Play();
+        if (endFX != null)
+        {
+            punchFX.Play();
+        }
     }
 
     private void HandleAnimationCompletion()

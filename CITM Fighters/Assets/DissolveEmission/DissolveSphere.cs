@@ -17,7 +17,7 @@ public class DissolveSphere : MonoBehaviour
     {
 
         mats = GetComponent<Renderer>().materials;
-        _playerController = FindObjectOfType<CharacterController>();
+        //_playerController = FindObjectOfType<CharacterController>();
     }
 
     private void Update()
